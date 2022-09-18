@@ -1,0 +1,801 @@
+﻿ID,CLASSIFIED,TYPE,SUMMARY,Alan Ratings,Aaron Ratings,Lotfi Ratings
+SPARK-33273,BUG,BUG,Fix Flaky Test: ThriftServerQueryTestSuite.,BUG,BUG,BUG
+SPARK-33395,BUG,BUG,Spark reading data in scientific notation,BUG,BUG,BUG
+SPARK-33071,BUG,BUG,Join with ambiguous column succeeding but giving wrong output,BUG,BUG,BUG
+SPARK-32007,BUG,BUG,Spark Driver Supervise does not work reliably,BUG,BUG,BUG
+SPARK-33031,BUG,BUG,scheduler with blacklisting doesn't appear to pick up new executor added,BUG,BUG,BUG
+SPARK-28367,BUG,BUG,Kafka connector infinite wait because metadata never updated,BUG,BUG,BUG
+SPARK-28001,BUG,BUG,Dataframe throws 'socket.timeout: timed out' exception,BUG,BUG,BUG
+SPARK-9182,BUG,BUG,filter and groupBy on DataFrames are not passed through to jdbc source,BUG,BUG,BUG
+SPARK-31693,BUG,BUG,Investigate AmpLab Jenkins server network issue,BUG,BUG,BUG
+SPARK-31236,BUG,BUG,Spark error while consuming data from Kinesis direct end point,BUG,BUG,BUG
+SPARK-26836,BUG,BUG,Columns get switched in Spark SQL using Avro backed Hive table if schema evolves,BUG,BUG,BUG
+SPARK-24098,BUG,BUG,ScriptTransformationExec should wait process exiting before output iterator finish,BUG,BUG,BUG
+SPARK-24338,BUG,BUG,Spark SQL fails to create a Hive table when running in a Apache Sentry-secured Environment,BUG,BUG,BUG
+SPARK-33445,BUG,BUG,Can't parse decimal type from csv file,BUG,BUG,BUG
+SPARK-33440,BUG,BUG,Spark schedules on updating delegation token with 0 interval under some token provider implementation,BUG,BUG,BUG
+SPARK-32681,NUG,NUG,PySpark type hints support,NUG,NUG,NUG
+SPARK-7768,NUG,NUG,Make user-defined type (UDT) API public,NUG,NUG,NUG
+SPARK-3162,NUG,NUG,Train DecisionTree locally when possible,NUG,NUG,NUG
+SPARK-33416,NUG,NUG,Avoid Hive metastore stack overflow when InSet predicate have many values,NUG,NUG,NUG
+SPARK-33454,NUG,NUG,Add GitHub Action job for Hadoop 2,NUG,NUG,NUG
+SPARK-33449,NUG,NUG,Add cache for Parquet Metadata,NUG,NUG,NUG
+SPARK-33447,NUG,NUG,"Stage level scheduling, allow specifying other spark configs via ResourceProfile",NUG,NUG,NUG
+SPARK-33446,BUG,NUG,Add config spark.executor.coresOverhead,BUG,BUG,BUG
+SPARK-32582,NUG,NUG,Spark SQL Infer Schema Performance,NUG,NUG,NUG
+SPARK-33143,NUG,NUG,Make SocketAuthServer socket timeout configurable,NUG,NUG,NUG
+SPARK-33437,NUG,NUG,Support CACHE TABLE command in DSv2,NUG,NUG,NUG
+SPARK-23499,NUG,NUG,Mesos Cluster Dispatcher should support priority queues to submit drivers,NUG,NUG,NUG
+SPARK-33438,BUG,BUG,set -v couldn't dump all the conf entries,BUG,BUG,BUG
+SPARK-33332,BUG,BUG,Errors in running spark job on K8 with RPC Authentication Secret File properties,BUG,BUG,BUG
+SPARK-33152,BUG,BUG,Constraint Propagation code causes OOM issues or increasing compilation time to hours,BUG,BUG,BUG
+SPARK-33427,NUG,NUG,Interpreted subexpression elimination,NUG,NUG,NUG
+SPARK-29250,NUG,NUG,Upgrade to Hadoop 3.3.0,NUG,NUG,NUG
+SPARK-33411,NUG,NUG,"Cardinality estimation of union, range and sort logical operators",NUG,BUG,NUG
+SPARK-32240,BUG,BUG,UDF parse_url with a URL that contains pipe(|) will give incorrect result,BUG,BUG,BUG
+SPARK-33383,NUG,NUG,Improve performance of Column.isin Expression,NUG,NUG,NUG
+SPARK-33128,BUG,BUG,mismatched input since Spark 3.0,BUG,BUG,BUG
+SPARK-33420,BUG,BUG,BroadCastJoin failure when keys on join side has cast from DateTyte to String,BUG,BUG,BUG
+SPARK-26825,BUG,BUG,Spark Structure Streaming job failing when submitted in cluster mode,BUG,BUG,BUG
+SPARK-33401,BUG,BUG,Vector type column is not possible to create using spark SQL,BUG,BUG,BUG
+SPARK-33409,BUG,BUG,Spark job can not be killed in BoradcastNestedLoopJoin,BUG,BUG,BUG
+SPARK-33330,BUG,BUG,Catalyst StringType converter unable to convert enum type,BUG,BUG,BUG
+SPARK-33388,NUG,NUG,Merge In and InSet predicate,NUG,NUG,NUG
+SPARK-33187,NUG,NUG,Add a check on the number of returned partitions in the HiveShim#getPartitionsByFilter method,NUG,NUG,NUG
+SPARK-33407,NUG,NUG,Simplify the exception message from Python UDFs,NUG,NUG,NUG
+SPARK-33406,BUG,BUG,k8s pyspark shell doesn't honor pyspark memory setting,BUG,BUG,BUG
+SPARK-31911,BUG,BUG,"Using S3A staging committer, pending uploads are committed more than once and listed incorrectly in _SUCCESS data",BUG,BUG,BUG
+SPARK-22903,BUG,BUG,AlreadyBeingCreatedException in stage retry caused by wrong attemptNumber,BUG,BUG,BUG
+SPARK-33398,BUG,BUG,AnalysisException when loading a PipelineModel with Spark 3,BUG,BUG,BUG
+SPARK-33373,BUG,BUG,A serialized ImputerModel fails to be serialized again,BUG,BUG,BUG
+SPARK-33326,BUG,BUG,Partition Parameters are not updated even after ANALYZE TABLE command,BUG,BUG,BUG
+SPARK-33327,BUG,BUG,grouped by first and last against date column returns incorrect results,BUG,BUG,BUG
+SPARK-33301,BUG,BUG,Code grows beyond 64 KB when compiling large CaseWhen,BUG,BUG,BUG
+SPARK-33361,BUG,BUG,Dataset.observe() functionality does not work with structured streaming,BUG,BUG,BUG
+SPARK-33358,BUG,BUG,Spark SQL CLI command processing loop can't exit while one comand fail,BUG,BUG,BUG
+SPARK-33336,BUG,BUG,provided an invalid fromOffset when spark streaming running,BUG,BUG,BUG
+SPARK-33357,NUG,NUG,Support SparkLauncher in Kubernetes,NUG,NUG,NUG
+SPARK-33334,NUG,NUG,Spark to Handle Nano seconds in Timestamps,NUG,NUG,NUG
+SPARK-33354,NUG,NUG,New explicit cast syntax rules in ANSI mode,NUG,NUG,NUG
+SPARK-33351,NUG,NUG,WithColumn should add a column with specific position,NUG,NUG,NUG
+SPARK-33277,BUG,BUG,Python/Pandas UDF right after off-heap vectorized reader could cause executor crash.,BUG,BUG,BUG
+SPARK-32894,BUG,BUG,Timestamp cast in exernal orc table,BUG,BUG,BUG
+SPARK-33325,BUG,BUG,Spark executors pod are not shutting down when losing driver connection,BUG,BUG,BUG
+SPARK-33340,BUG,BUG,spark run on kubernetes has Could not load KUBERNETES classes issue,BUG,BUG,BUG
+SPARK-33328,BUG,BUG,Fix Flaky HiveThriftHttpServerSuite,BUG,BUG,BUG
+SPARK-33295,NUG,NUG,Upgrade ORC to 1.6.6,NUG,NUG,NUG
+SPARK-33150,BUG,BUG,Groupby key may not be unique when using window,NUG,BUG,BUG
+SPARK-33245,NUG,NUG,Add built-in UDF - GETBIT,NUG,NUG,NUG
+SPARK-24432,NUG,NUG,Add support for dynamic resource allocation,NUG,NUG,NUG
+SPARK-33320,BUG,BUG,ExecutorMetrics are not written to CSV and StatsD sinks,BUG,BUG,BUG
+SPARK-28180,BUG,BUG,Encoding CSV to Pojo works with Encoders.bean on RDD but fail on asserts when attemtping it from a Dataset<Row>,BUG,BUG,BUG
+SPARK-33060,BUG,BUG,approxSimilarityJoin in Structured Stream causes state to explode in size,BUG,BUG,BUG
+SPARK-28094,BUG,BUG,Multiple left joins or aggregations in one query produce incorrect results,BUG,BUG,BUG
+SPARK-33304,NUG,NUG,Add from_avro and to_avro functions to SparkR,NUG,NUG,NUG
+SPARK-33311,NUG,NUG,Improve semantics for REFRESH TABLE,NUG,NUG,NUG
+SPARK-33307,NUG,NUG,Refact GROUPING ANALYTICS,NUG,NUG,NUG
+SPARK-29683,BUG,BUG,Job failed due to executor failures all available nodes are blacklisted,BUG,BUG,BUG
+SPARK-33098,BUG,BUG,Explicit or implicit casts involving partition columns can sometimes result in a MetaException.,BUG,BUG,BUG
+SPARK-33280,BUG,BUG,Spark 3.0 serialization issue,BUG,BUG,BUG
+SPARK-32591,NUG,NUG,Add better api docs for stage level scheduling Resources,NUG,NUG,NUG
+SPARK-27733,NUG,NUG,Upgrade to Avro 1.10.0,NUG,NUG,NUG
+SPARK-33275,NUG,NUG,ANSI mode: runtime errors instead of returning null,NUG,NUG,NUG
+SPARK-33266,NUG,NUG,"Add total duration, read duration, and write duration as task level metrics",NUG,NUG,NUG
+SPARK-33138,NUG,NUG,unify temp view and permanent view behaviors,NUG,NUG,NUG
+SPARK-32703,NUG,NUG,Enable dictionary filtering for Parquet vectorized reader,NUG,NUG,NUG
+SPARK-33247,NUG,NUG,Improve examples and scenarios in docstrings,NUG,NUG,NUG
+SPARK-32195,NUG,NUG,Standardize warning types and messages,NUG,NUG,NUG
+SPARK-33241,NUG,NUG,Dynamic pruning for data column,NUG,NUG,NUG
+SPARK-32797,NUG,NUG,Install mypy on the Jenkins CI workers,NUG,NUG,NUG
+SPARK-32194,NUG,NUG,Standardize exceptions in PySpark,NUG,NUG,NUG
+SPARK-33235,NUG,NUG,Push-based Shuffle Phase 2 Tasks,NUG,NUG,NUG
+SPARK-30602,NUG,NUG,SPIP: Support push-based shuffle to improve shuffle efficiency,NUG,NUG,NUG
+SPARK-33220,NUG,NUG,`scheduleAtFixedRate` change to `schedulerWithFixedDelay` to avoid repeated unecessary scheduling for a short time,NUG,NUG,NUG
+SPARK-33195,BUG,BUG,stages/stage UI page fails to load when spark reverse proxy is enabled,BUG,BUG,BUG
+SPARK-33227,BUG,BUG,Add Jar with Azure SAS token fails with URL encoded characters,NUG,BUG,BUG
+SPARK-31069,NUG,NUG,high cpu caused by chunksBeingTransferred in external shuffle service,NUG,NUG,NUG
+SPARK-33207,NUG,NUG,Reduce the number of tasks launched after bucket pruning,NUG,NUG,NUG
+SPARK-32461,NUG,NUG,Shuffled hash join improvement,NUG,NUG,NUG
+SPARK-33122,NUG,NUG,Remove redundant aggregates in the Optimzier,NUG,NUG,NUG
+SPARK-33222,NUG,NUG,Expose missing information (graphs) on SS UI,NUG,NUG,NUG
+SPARK-29038,NUG,NUG,SPIP: Support Spark Materialized View,NUG,NUG,NUG
+SPARK-26764,NUG,NUG,Spark Relational Cache,NUG,NUG,NUG
+SPARK-33200,NUG,NUG,Validate that all shuffle files are migrated during E2E testing,NUG,NUG,NUG
+SPARK-33199,BUG,BUG,Mesos Task Failed when pyFiles and docker image option used together,BUG,BUG,BUG
+SPARK-33194,BUG,BUG,Spark 3.0 streaming metrics are not in Prometheus,BUG,BUG,BUG
+SPARK-33133,BUG,BUG,History server fails when loading invalid rolling event logs,BUG,BUG,BUG
+SPARK-33192,BUG,BUG,on k8s dynamic resource allocation failed,BUG,BUG,BUG
+SPARK-31760,NUG,NUG,Simplification Based on Containment,NUG,NUG,NUG
+SPARK-33178,NUG,NUG,Dynamic Scaling In/Scaling out of executors - Kubernetes,NUG,NUG,NUG
+SPARK-32323,BUG,BUG,Javascript/HTML bug in spark application UI,BUG,BUG,BUG
+SPARK-33161,BUG,BUG,Partition count changing on dataframe select cols,BUG,BUG,BUG
+SPARK-32838,BUG,BUG,Connot overwite different partition with same table,BUG,BUG,BUG
+SPARK-33085,BUG,BUG,"""Master removed our application"" error leads to FAILED driver status instead of KILLED driver status",BUG,BUG,BUG
+SPARK-31513,NUG,NUG,Improve the structure of auto-generated built-in function pages in SQL references,NUG,NUG,NUG
+SPARK-32342,BUG,BUG,Kafka events are missing magic byte,BUG,BUG,BUG
+SPARK-33144,BUG,BUG,"Connot insert overwite multiple partition, get exception ""get partition: Value for key name is null or empty""",BUG,BUG,BUG
+SPARK-33148,BUG,BUG,SQLConf inconsistency between SharedState and SessionState,BUG,BUG,BUG
+SPARK-33113,BUG,BUG,"gapply works with arrow disabled, fails with arrow enabled stringsAsFactors=TRUE",BUG,BUG,BUG
+SPARK-29625,BUG,BUG,Spark Structure Streaming Kafka Wrong Reset Offset twice,BUG,BUG,BUG
+SPARK-33135,NUG,NUG,Use listLocatedStatus from FileSystem implementations,NUG,NUG,NUG
+SPARK-33090,NUG,NUG,Upgrade Google Guava,NUG,NUG,NUG
+SPARK-33121,NUG,BUG,Spark does not shutdown gracefully,NUG,NUG,NUG
+SPARK-31338,BUG,BUG,Spark SQL JDBC Data Source partitioned read : Spark SQL does not honor for NOT NULL table definition of partition key.,BUG,BUG,BUG
+SPARK-28099,BUG,BUG,Assertion when querying unpartitioned Hive table with partition-like naming,BUG,BUG,BUG
+SPARK-32166,BUG,BUG,Metastore problem on Spark3.0 with Hive3.0,BUG,BUG,BUG
+SPARK-32281,BUG,BUG,Spark wipes out SORTED spec in metastore when DESC is used,BUG,BUG,BUG
+SPARK-33114,NUG,NUG,Add metadata in MapStatus to support custom shuffle manager,NUG,NUG,NUG
+SPARK-33110,BUG,BUG,array_contains doesn't pick element in the array but just at the end,BUG,BUG,BUG
+SPARK-33045,NUG,NUG,Implement built-in LIKE ANY and LIKE ALL UDF,NUG,NUG,NUG
+SPARK-31972,NUG,NUG,Improve heurestic for selecting nodes for scale down to take into account graceful decommission cost,NUG,NUG,NUG
+SPARK-32924,BUG,BUG,Web UI sort on duration is wrong,BUG,BUG,BUG
+SPARK-33097,NUG,NUG,Add Decommissioning messages to the Spark listener bus,NUG,NUG,NUG
+SPARK-22674,BUG,BUG,PySpark breaks serialization of namedtuple subclasses,BUG,BUG,BUG
+SPARK-28360,BUG,NUG,The serviceAccountName configuration item does not take effect in client mode.,BUG,NUG,BUG
+SPARK-27484,NUG,NUG,Create the streaming writing logical plan node before query is analyzed,NUG,NUG,NUG
+SPARK-33084,NUG,NUG,Add jar support ivy path,NUG,NUG,NUG
+SPARK-31800,BUG,BUG,Unable to disable Kerberos when submitting jobs to Kubernetes,BUG,BUG,BUG
+SPARK-25299,NUG,NUG,Use remote storage for persisting shuffle data,NUG,NUG,NUG
+SPARK-31924,NUG,NUG,Create remote shuffle service reference implementation,NUG,NUG,NUG
+SPARK-31257,NUG,NUG,Unify create table syntax to fix ambiguous two different CREATE TABLE syntaxes,NUG,NUG,NUG
+SPARK-33059,BUG,BUG,Bug with self joined tables after posexploded column,BUG,BUG,BUG
+SPARK-33054,NUG,NUG,Support interval type in PySpark,NUG,NUG,NUG
+SPARK-30186,NUG,NUG,support Dynamic Partition Pruning in Adaptive Execution,NUG,NUG,NUG
+SPARK-27318,BUG,BUG,Join operation on bucketing table fails with base adaptive enabled,BUG,BUG,BUG
+SPARK-32965,BUG,BUG,pyspark reading csv files with utf_16le encoding,BUG,BUG,BUG
+SPARK-33041,NUG,NUG,Better error messages when PySpark Java Gateway Crashes,NUG,NUG,NUG
+SPARK-33022,BUG,BUG,partition length is wrong after merge partition segments in BypassMergeSortShuffleWriter,BUG,BUG,BUG
+SPARK-32947,NUG,NUG,Support top-N sort for Spark SQL window function,NUG,NUG,NUG
+SPARK-33029,BUG,BUG,Standalone mode blacklist executors page UI marks driver as blacklisted,BUG,BUG,BUG
+SPARK-32976,NUG,NUG,Support column list in INSERT statement,NUG,NUG,NUG
+SPARK-32113,NUG,NUG,Avoid coalescing shuffle partitions if joining event-based table,NUG,NUG,NUG
+SPARK-33014,BUG,BUG,Multiple bucket column not works in DataSourceV2 table,BUG,BUG,BUG
+SPARK-32969,BUG,BUG,Spark Submit process not exiting after session.stop(),BUG,BUG,BUG
+SPARK-32994,BUG,BUG,Heavy external accumulators may lead driver full GC problem,BUG,BUG,BUG
+SPARK-32893,BUG,BUG,Structured Streaming and Dynamic Allocation on StandaloneCluster,BUG,BUG,BUG
+SPARK-32956,BUG,BUG,Duplicate Columns in a csv file,BUG,BUG,BUG
+SPARK-32975,BUG,BUG,[K8S] - executor fails to be restarted after it goes to ERROR/Failure state,BUG,BUG,BUG
+SPARK-32778,BUG,NUG,Accidental Data Deletion on calling saveAsTable,BUG,NUG,BUG
+SPARK-17556,NUG,NUG,Executor side broadcast for broadcast joins,NUG,NUG,NUG
+SPARK-32925,NUG,NUG,Support push-based shuffle in multiple deployment environments,NUG,NUG,NUG
+SPARK-32928,BUG,BUG,Non-deterministic expressions should not be reordered inside AND and OR,BUG,BUG,BUG
+SPARK-32957,NUG,NUG,Add a GitHub Actions job to run WebUI tests with Chrome,NUG,NUG,NUG
+SPARK-32953,NUG,NUG,Lower memory usage in toPandas with Arrow self_destruct,NUG,NUG,NUG
+SPARK-32096,NUG,NUG,Improve sorting performance for?Spark SQL rank window function?,NUG,NUG,NUG
+SPARK-32821,NUG,NUG,cannot group by with window in sql statement for structured streaming with watermark,NUG,NUG,NUG
+SPARK-32940,NUG,NUG,"Collect, first and last should be deterministic aggregate functions",NUG,NUG,NUG
+SPARK-32939,NUG,NUG,Avoid re-compute expensive expression,NUG,NUG,NUG
+SPARK-31754,BUG,BUG,Spark Structured Streaming: NullPointerException in Stream Stream join,BUG,BUG,BUG
+SPARK-29900,NUG,NUG,make relation lookup behavior consistent within Spark SQL,NUG,NUG,NUG
+SPARK-32904,BUG,BUG,pyspark.mllib.evaluation.MulticlassMetrics needs to swap the results of precision( ) and recall( ),BUG,BUG,BUG
+SPARK-32899,NUG,NUG,Support submit application with user-defined cluster manager,NUG,NUG,NUG
+SPARK-32891,NUG,NUG,Enhance UTF8String.trim,NUG,NUG,NUG
+SPARK-32895,BUG,BUG,DataSourceV2 allow ACCEPT_ANY_SCHEMA in write path,BUG,BUG,BUG
+SPARK-32834,BUG,BUG,from_avro is giving empty result,BUG,BUG,BUG
+SPARK-32880,NUG,NUG,Improve and refactor parallel listing in HadoopFSUtils,NUG,NUG,NUG
+SPARK-24528,NUG,NUG,Add support to read multiple sorted bucket files for data source v1,NUG,NUG,NUG
+SPARK-32795,BUG,BUG,ApplicationInfo#removedExecutors can cause OOM,BUG,BUG,BUG
+SPARK-32856,NUG,NUG,Prohibit binary comparisons chain,NUG,NUG,NUG
+SPARK-32855,NUG,NUG,Improve DPP for some join type do not support broadcast filtering side,NUG,NUG,NUG
+SPARK-32847,NUG,NUG,Add DataStreamWriterV2 API,NUG,NUG,NUG
+SPARK-32842,NUG,NUG,Support dynamic partition pruning hint,NUG,NUG,NUG
+SPARK-32837,NUG,NUG,Leverage pip and setup.py configurations to pass Hadoop and Hive options in pip installation,NUG,NUG,NUG
+SPARK-24295,BUG,BUG,Purge Structured streaming FileStreamSinkLog metadata compact file data.,BUG,BUG,BUG
+SPARK-27188,NUG,NUG,FileStreamSink: provide a new option to have retention on output files,NUG,NUG,NUG
+SPARK-32820,NUG,NUG,Remove redundant shuffle exchanges inserted by EnsureRequirements,NUG,NUG,NUG
+SPARK-32818,BUG,BUG,Make hive metastore convert config can be changed session level,BUG,BUG,BUG
+SPARK-27483,NUG,NUG,Move the data source v2 fallback to v1 logic to an analyzer rule,NUG,NUG,NUG
+SPARK-32758,BUG,BUG,Spark ignores limit(1) and starts tasks for all partition,BUG,BUG,BUG
+SPARK-32801,NUG,NUG,Make InferFiltersFromConstraints take in account EqualNullSafe,NUG,NUG,NUG
+SPARK-32803,BUG,BUG,Catch InterruptedException when resolve rack in SparkRackResolver,BUG,BUG,BUG
+SPARK-32530,NUG,NUG,SPIP: Kotlin support for Apache Spark,NUG,NUG,NUG
+SPARK-32598,BUG,BUG,Not able to see driver logs in spark history server in standalone mode,BUG,BUG,BUG
+SPARK-28955,NUG,NUG,Support for LocalDateTime semantics,NUG,NUG,NUG
+SPARK-32792,NUG,NUG,Improve in filter pushdown for ParquetFilters,NUG,NUG,NUG
+SPARK-25200,BUG,BUG,Allow setting HADOOP_CONF_DIR as a spark property,BUG,BUG,BUG
+SPARK-32781,BUG,BUG,Non-ASCII characters are mistakenly omitted in the middle of intervals,BUG,BUG,BUG
+SPARK-32734,BUG,BUG,RDD actions in DStream.transfrom delays batch submission,BUG,BUG,BUG
+SPARK-32735,BUG,BUG,RDD actions in DStream.transfrom don't show at batch page,BUG,BUG,BUG
+SPARK-32746,BUG,BUG,Not able to run Pandas UDF,BUG,BUG,BUG
+SPARK-32752,NUG,NUG,Alias breaks for interval typed literals,NUG,NUG,NUG
+SPARK-32317,BUG,BUG,"Parquet file loading with different schema(Decimal(N, P)) in files is not working as expected",BUG,BUG,BUG
+SPARK-32775,BUG,BUG,Spark client dependency support ignores non-local paths,BUG,BUG,BUG
+SPARK-32773,BUG,BUG,The behavior of listJars and listFiles is not consistent between YARN and other cluster managers,BUG,BUG,BUG
+SPARK-19320,NUG,NUG,Allow guaranteed amount of GPU to be used when launching jobs,NUG,NUG,NUG
+SPARK-32742,BUG,BUG,"FileOutputCommitter warns ""No Output found for attempt""",BUG,BUG,BUG
+SPARK-32732,NUG,NUG,Convert schema only once in OrcSerializer,NUG,NUG,NUG
+SPARK-24892,NUG,NUG,Simplify `CaseWhen` to `If` when there is only one branch,NUG,NUG,NUG
+SPARK-32385,NUG,NUG,"Publish a ""bill of materials"" (BOM) descriptor for Spark with correct versions of various dependencies",NUG,NUG,NUG
+SPARK-32533,NUG,NUG,Improve Avro read/write performance on nested structs and array of structs,NUG,NUG,NUG
+SPARK-32532,NUG,NUG,Improve ORC read/write performance on nested structs and array of structs,NUG,NUG,NUG
+SPARK-32725,NUG,NUG,Getting jar vulnerability for kryo-shaded for 4.0 version,NUG,NUG,NUG
+SPARK-32444,NUG,NUG,Infer filters from DPP,NUG,NUG,NUG
+SPARK-25784,NUG,NUG,Infer filters from constraints after rewriting predicate subquery,NUG,NUG,NUG
+SPARK-14922,NUG,BUG,Alter Table Drop Partition Using Predicate-based Partition Spec,NUG,BUG,NUG
+SPARK-32636,BUG,BUG,AsyncEventQueue: Exception scala.Some cannot be cast to java.lang.String,BUG,BUG,BUG
+SPARK-32707,NUG,NUG,Support File Based spark.authenticate secret in Mesos Backend,NUG,NUG,NUG
+SPARK-32412,NUG,NUG,Unify error handling for spark thrift server operations,NUG,NUG,NUG
+SPARK-32673,BUG,BUG,Pyspark/cloudpickle.py - no module named 'wfdb',BUG,BUG,BUG
+SPARK-31936,NUG,NUG,Implement ScriptTransform in sql/core,NUG,NUG,NUG
+SPARK-32692,BUG,BUG,Support INSERT OVERWRITE DIR cross cluster,BUG,BUG,BUG
+SPARK-32333,NUG,NUG,Drop references to Master,NUG,NUG,NUG
+SPARK-32500,NUG,BUG,Query and Batch Id not set for Structured Streaming Jobs in case of ForeachBatch in PySpark,NUG,BUG,NUG
+SPARK-32569,NUG,BUG,Gaussian can not handle data close to MaxDouble,NUG,BUG,NUG
+SPARK-32617,NUG,BUG,Upgrade kubernetes client version to support latest minikube version.,NUG,BUG,NUG
+SPARK-23530,NUG,NUG,It's not appropriate to let the original master exit while the leader of zookeeper shutdown,NUG,NUG,NUG
+SPARK-10520,NUG,NUG,Dates cannot be summarised,NUG,NUG,NUG
+SPARK-32642,NUG,NUG,Add support for ESS in Spark sidecar,NUG,NUG,NUG
+SPARK-32680,BUG,BUG,CTAS with V2 catalog wrongly accessed unresolved query,BUG,BUG,BUG
+SPARK-28008,NUG,NUG,Default values & column comments in AVRO schema converters,NUG,NUG,NUG
+SPARK-32628,NUG,NUG,Use bloom filter to improve dynamicPartitionPruning,NUG,NUG,NUG
+SPARK-29274,BUG,BUG,Should not coerce decimal type to double type when it's join column,BUG,BUG,BUG
+SPARK-32644,NUG,NUG,NAAJ support for ShuffleHashJoin when AQE is on,NUG,NUG,NUG
+SPARK-32612,BUG,BUG,int columns produce inconsistent results on pandas UDFs,BUG,BUG,BUG
+SPARK-32631,NUG,NUG,Handle Null error message in hive ThriftServer UI,NUG,NUG,NUG
+SPARK-32627,NUG,NUG,Add showSessionLink parameter to SqlStatsPagedTable class in ThriftServerPage,NUG,NUG,NUG
+SPARK-32630,NUG,NUG,Reduce user confusion and subtle bugs by optionally preventing date & timestamp comparison,NUG,NUG,NUG
+SPARK-27708,NUG,NUG,Add documentation for v2 data sources,NUG,NUG,NUG
+SPARK-17967,NUG,NUG,Support for list or other types as an option for datasources,NUG,NUG,NUG
+SPARK-32587,BUG,BUG,SPARK SQL writing to JDBC target with bit datatype using Dataframe is writing NULL values,BUG,BUG,BUG
+SPARK-31776,NUG,NUG,Literal lit() supports lists and numpy arrays,NUG,NUG,NUG
+SPARK-30552,BUG,BUG,Chained spark column expressions with distinct windows specs produce inefficient DAG,BUG,BUG,BUG
+SPARK-32268,NUG,NUG,Bloom Filter Join,NUG,NUG,NUG
+SPARK-27997,NUG,NUG,kubernetes client token expired,NUG,NUG,NUG
+SPARK-32572,NUG,NUG,"Run all the tests at once, instead of having separate entrypoints.",NUG,NUG,NUG
+SPARK-32571,BUG,BUG,yarnClient.killApplication(appId) is never called,BUG,BUG,BUG
+SPARK-32432,NUG,NUG,Add support for reading ORC/Parquet files with SymlinkTextInputFormat,NUG,NUG,NUG
+SPARK-32574,BUG,BUG,Race condition in FsHistoryProvider listing iteration,BUG,BUG,BUG
+SPARK-32565,NUG,NUG,Parquet encryption policy interface,NUG,NUG,NUG
+SPARK-32522,BUG,BUG,Using pyspark with a MultiLayerPerceptron model given inconsistent outputs if a large amount of data is fed into it and at least one of the model outputs is fed to a Python UDF.,BUG,BUG,BUG
+SPARK-32544,NUG,NUG,Bucketing and Partitioning information are not passed on to non FileFormat datasource writes,NUG,NUG,NUG
+SPARK-30069,BUG,BUG,Clean up non-shuffle disk block manager files following executor exists on YARN,BUG,BUG,BUG
+SPARK-32553,BUG,BUG,Spark application failed due to stage fatch failed without retry,BUG,BUG,BUG
+SPARK-32545,BUG,BUG,Applications with Maven dependencies fail when submitted in cluster mode on K8s,BUG,BUG,BUG
+SPARK-32541,NUG,NUG,MSCK REPAIR TABLE should drop the missing partitions from metastore,NUG,NUG,NUG
+SPARK-32293,BUG,BUG,Inconsistent default unit between Spark memory configs and JVM option,BUG,BUG,BUG
+SPARK-32486,BUG,BUG,Issue with deserialization and persist api in latest spark java versions,BUG,BUG,BUG
+SPARK-29965,BUG,BUG,Race in executor shutdown handling can lead to executor never fully unregistering,BUG,BUG,BUG
+SPARK-22231,NUG,NUG,"Support of map, filter, withField, dropFields in nested list of structures",NUG,NUG,NUG
+SPARK-31470,NUG,NUG,Introduce SORTED BY clause in CREATE TABLE statement,NUG,NUG,NUG
+SPARK-22947,NUG,NUG,SPIP: as-of join in Spark SQL,NUG,NUG,NUG
+SPARK-29886,NUG,NUG,Add support for Spark style HashDistribution and Partitioning to V2 Datasource,NUG,NUG,NUG
+SPARK-32484,BUG,BUG,Not accurate Log Info in BroadcastExchangeExec.scala,BUG,BUG,BUG
+SPARK-20684,NUG,BUG,expose createOrReplaceGlobalTempView/createGlobalTempView and dropGlobalTempView in SparkR,NUG,BUG,NUG
+SPARK-32139,NUG,NUG,Unify Classification Training Summary,NUG,NUG,NUG
+SPARK-32429,NUG,NUG,Standalone Mode allow setting CUDA_VISIBLE_DEVICES on executor launch,NUG,NUG,NUG
+SPARK-32269,BUG,BUG,Failed to rename delta file on checkpoint path,BUG,BUG,BUG
+SPARK-32433,BUG,BUG,Spark Web UI shows Nan undefined in Shuffle Read Size / Records,BUG,BUG,BUG
+SPARK-32464,NUG,NUG,Support skew handling on join that has one side with no query stage,NUG,NUG,NUG
+SPARK-29302,BUG,BUG,dynamic partition overwrite with speculation enabled,BUG,BUG,BUG
+SPARK-27194,BUG,BUG,Job failures when task attempts do not clean up spark-staging parquet files,BUG,BUG,BUG
+SPARK-31168,NUG,NUG,Upgrade Scala to 2.12.13,NUG,NUG,NUG
+SPARK-31356,NUG,NUG,reduceGroupValues function for KeyValueGroupedDataset,NUG,NUG,NUG
+SPARK-32294,NUG,BUG,GroupedData Pandas UDF 2Gb limit,NUG,NUG,NUG
+SPARK-32418,BUG,BUG,"Flaky test: org.apache.spark.DistributedSuite.caching in memory, serialized, replicated (encryption = off)",BUG,BUG,BUG
+SPARK-32414,BUG,BUG,pyspark crashes in cluster mode with kafka structured streaming,BUG,BUG,BUG
+SPARK-32334,NUG,NUG,Investigate commonizing Columnar and Row data transformations,NUG,NUG,NUG
+SPARK-27780,NUG,NUG,Shuffle server & client should be versioned to enable smoother upgrade,NUG,NUG,NUG
+SPARK-32407,NUG,NUG,Remove upperbound of Sphinx version,NUG,NUG,NUG
+SPARK-32395,NUG,BUG,Commit output files after task attempt succeed in dynamic partition datawriter,NUG,BUG,NUG
+SPARK-26346,NUG,BUG,Upgrade parquet to 1.11.1,NUG,NUG,NUG
+SPARK-32059,BUG,NUG,Nested Schema Pruning not Working in Window Functions,BUG,NUG,BUG
+SPARK-23844,BUG,BUG,Socket Stream recovering from checkpoint will throw exception,BUG,BUG,BUG
+SPARK-26345,NUG,BUG,Parquet support Column indexes,NUG,NUG,NUG
+SPARK-32380,BUG,BUG,sparksql cannot access hive table while data in hbase,BUG,BUG,BUG
+SPARK-32378,NUG,NUG,Permission problem happens while prepareLocalResources,NUG,NUG,NUG
+SPARK-30876,NUG,NUG,Optimizer cannot infer from inferred constraints with join,NUG,NUG,NUG
+SPARK-32373,BUG,BUG,Spark Standalone - RetryingBlockFetcher tries to get block from worker even 10mins after it was de-registered from spark cluster,BUG,BUG,BUG
+SPARK-32371,NUG,NUG,Autodetect persistently failing executor pods and fail the application logging the cause.,NUG,NUG,NUG
+SPARK-15118,BUG,BUG,Spark SQLConf should support loading hive properties in hive-site.xml,BUG,BUG,BUG
+SPARK-32340,NUG,NUG,Move cloudpickle into python/lib as a thridparty library,NUG,NUG,NUG
+SPARK-32331,NUG,NUG,Keep advanced statistics when pruning partitions,NUG,NUG,NUG
+SPARK-32321,BUG,BUG,Rollback SPARK-26267 workaround since KAFKA-7703 resolved,BUG,BUG,BUG
+SPARK-32320,NUG,NUG,Remove mutable default arguments,NUG,NUG,NUG
+SPARK-32291,NUG,NUG,COALESCE should not reduce the child parallelism if it is Join,NUG,NUG,NUG
+SPARK-24983,BUG,BUG,Collapsing multiple project statements with dependent When-Otherwise statements on the same column can OOM the driver,BUG,BUG,BUG
+SPARK-32197,BUG,BUG,Spark driver' stays running even though 'spark application' has FAILED,BUG,BUG,BUG
+SPARK-30985,NUG,NUG,Propagate SPARK_CONF_DIR files to driver and exec pods.,NUG,NUG,NUG
+SPARK-32226,BUG,BUG,JDBC TimeStamp predicates always append `.0`,BUG,BUG,BUG
+SPARK-32288,NUG,NUG,Add exception summary table in stage page,NUG,NUG,NUG
+SPARK-24163,NUG,NUG,"Support ""ANY"" or sub-query for Pivot ""IN"" clause",NUG,NUG,NUG
+SPARK-32284,NUG,NUG,Avoid expanding too many CNF predicates in partition pruning,NUG,NUG,NUG
+SPARK-32228,BUG,BUG,Partition column of hive table was capitalized as directory name when stored on HDFS,BUG,BUG,BUG
+SPARK-31635,BUG,BUG,Spark SQL Sort fails when sorting big data points,BUG,BUG,BUG
+SPARK-24985,BUG,BUG,"Executing SQL with ""Full Outer Join"" on top of large tables when there is data skew met OOM",BUG,BUG,BUG
+SPARK-23258,NUG,NUG,Should not split Arrow record batches based on row count,NUG,NUG,NUG
+SPARK-32277,BUG,BUG,Memory limit exception on high usage of direct buffer pool,BUG,BUG,BUG
+SPARK-32206,BUG,BUG,Enable multi-line true could break the read csv in Azure Data Lake Storage gen2,BUG,BUG,BUG
+SPARK-32246,NUG,BUG,Have a way to optionally run streaming-kinesis-asl,NUG,NUG,NUG
+SERVER-49279,BUG,BUG,Investigate how the server and client process OCSP responses,BUG,BUG,BUG
+SERVER-25025,NUG,NUG,Improve startup time when there are tens of thousands of collections/indexes on WiredTiger,NUG,NUG,NUG
+SERVER-51875,NUG,NUG,Move value type to basic_types.idl,NUG,NUG,NUG
+SERVER-51607,NUG,BUG,Upgrade Twisted dependency to at least twisted-19.7.0,NUG,NUG,NUG
+SERVER-42632,NUG,BUG,Disable pinger threads that reach out to config server to make integration tests pass,NUG,NUG,NUG
+SERVER-52562,NUG,NUG,Turn on Lock-Free reads for standalone mode,NUG,NUG,NUG
+SERVER-51674,NUG,NUG,Filter out $where clauses in the find and distinct cmds for lock free reads,NUG,NUG,NUG
+SERVER-45298,NUG,BUG,WiredTiger has failed to open its metadata,NUG,NUG,BUG
+SERVER-32437,NUG,NUG,Platform Support: add Amazon Linux 2,NUG,NUG,NUG
+SERVER-47926,NUG,NUG,Less verbose uassert,NUG,NUG,NUG
+SERVER-48922,NUG,NUG,Create internal assertion macro,NUG,NUG,NUG
+SERVER-44570,NUG,NUG,Create a non process-fatal variant of invariant(),NUG,NUG,NUG
+SERVER-49280,BUG,BUG,Investigate issues with ocspValidationRefreshPeriodSecs,BUG,BUG,BUG
+SERVER-51598,NUG,BUG,Add new test suites that test transaction expiration logic,BUG,NUG,NUG
+SERVER-51164,NUG,NUG,Remove non-DSI Microbenchmarks,NUG,NUG,NUG
+SERVER-51505,NUG,NUG,User a proper view definition for unwinding timeseries buckets,NUG,NUG,NUG
+SERVER-52670,NUG,BUG,Coverity analysis defect 116616: Parse warning,NUG,NUG,NUG
+SERVER-48890,NUG,NUG,allow $addFields with empty document and have it be a no-op,NUG,NUG,NUG
+SERVER-52263,NUG,NUG,Enable feature flag for Remove geoSearch and geoHaystack,NUG,NUG,NUG
+SERVER-51960,NUG,NUG,Create feature flag for Remove geoSearch and geoHaystack,NUG,NUG,NUG
+SERVER-51264,NUG,NUG,Rename is_master_response files,NUG,NUG,NUG
+SERVER-25822,BUG,NUG,Prohibit linking unittest library into core mongodb binaries,BUG,BUG,NUG
+SERVER-46342,BUG,BUG,DEB installs of MDB do not issue systemctl daemon-reload on install,BUG,BUG,BUG
+SERVER-50490,NUG,BUG,Reduce log severity of SERVER RESTARTED from Warning(-2) back to Log(0),NUG,NUG,NUG
+SERVER-51807,BUG,BUG,Speculative majority reads unsafely start storage transactions without holding a global lock,BUG,BUG,BUG
+SERVER-33747,BUG,BUG,Arbiter tries to start data replication if cannot find itself in config after restart,BUG,BUG,BUG
+SERVER-52629,NUG,NUG,Apply lookup by ShardId first in non config shards,NUG,NUG,NUG
+SERVER-34243,BUG,BUG,listCollections should not require a MODE_S database lock,BUG,BUG,BUG
+SERVER-50018,BUG,BUG,lock order is reversed when updating config.transactions,BUG,BUG,BUG
+SERVER-51692,NUG,NUG,Lint C++ unit test binary name,NUG,NUG,NUG
+SERVER-50852,BUG,BUG,"BF Day - Hang analyzer's ""interesting processes"" pattern for C++ unit tests doesn't match db_unittests",BUG,BUG,BUG
+SERVER-50888,NUG,NUG,Consider SERVER-46342 for backport to v4.2 --> v3.6,NUG,NUG,NUG
+SERVER-47081,NUG,NUG,Remove support for the geoSearch command and geoHaystack indexes,NUG,NUG,NUG
+SERVER-52560,BUG,BUG,oplog_writes_only_permitted_on_standalone.js must wait for insert to be in stable checkpoint,BUG,BUG,BUG
+SERVER-35069,NUG,NUG,Explain should include command being explained,NUG,NUG,NUG
+SERVER-47992,BUG,BUG,"Shard can migrate data on top of orphans if in FCV 4.4 and resumable range deleter was off, then was turned on",BUG,BUG,BUG
+SERVER-50697,BUG,BUG,Do not enforce fast count on 'config.system.indexBuilds',BUG,BUG,BUG
+SERVER-51826,NUG,NUG,Add code reference to where stale config version exception are handled,NUG,NUG,NUG
+SERVER-45684,BUG,BUG,Ninja compiledb adds env vars to commands,BUG,BUG,BUG
+SERVER-52748,BUG,BUG,"mongos incorrectly reports ""Only the first command in a transaction may specify API parameters"" error",BUG,BUG,BUG
+SERVER-50510,NUG,NUG,Change markHostNotMaster to markHostNotPrimary,NUG,NUG,NUG
+SERVER-52696,NUG,NUG,Add sysbench to system_perf.yml modules,NUG,NUG,NUG
+SERVER-51848,NUG,NUG,Specify generic arguments in IDL,NUG,NUG,NUG
+SERVER-28943,NUG,NUG,Make shards retry non-write commands on stale version exceptions,NUG,NUG,NUG
+SERVER-46729,NUG,NUG,Make Windows shell soft-fail for unavailable OCSP responder,NUG,NUG,NUG
+SERVER-49199,NUG,NUG,"selected_tests_gen should run only in patch builds, and noop in waterfall",NUG,NUG,NUG
+SERVER-52731,NUG,NUG,Make StatusWith types/constants inline,NUG,NUG,NUG
+SERVER-52691,NUG,NUG,Move createAggForCollectionCloning() into ReshardingCollectionCloner,NUG,NUG,NUG
+SERVER-52697,NUG,NUG,Add tpcc to system_perf.yml modules,NUG,NUG,NUG
+SERVER-50027,BUG,NUG,Freeze migrations on original sharded collection while the resharding operation is in progress,BUG,NUG,BUG
+SERVER-51788,NUG,NUG,Implement infrastructure for testing SBE stage builder,NUG,NUG,NUG
+SERVER-51209,NUG,NUG,Fill in missing gaps in Resharding workflow to complete Milestone 1,NUG,NUG,NUG
+SERVER-52658,BUG,NUG,Shut down the Grid's executor before shutting down the PrimaryOnlyServiceRegistry in resharding unit tests,NUG,BUG,BUG
+SERVER-51217,NUG,NUG,Uncomment createTemporaryReshardingCollectionLocally(),NUG,NUG,NUG
+SERVER-50432,NUG,NUG,"In at least one instance (4615603), log index keys as strings instead of deflated JSON",NUG,NUG,NUG
+SERVER-13980,BUG,BUG,Interactive shell truncates line input longer than 4096 bytes,BUG,BUG,BUG
+SERVER-49982,NUG,NUG,Implement $dayOf* agg expressions in SBE,NUG,NUG,NUG
+SERVER-21307,BUG,BUG,Replicated DDL (catalog) operation during background index build blocks reads/writes, BUG, BUG, BUG
+SERVER-51803,BUG,BUG,Please backport SERVER-43641,BUG,BUG,BUG
+SERVER-51866,NUG,NUG,IDLify MergeAuthzCollections command,NUG,NUG,NUG
+SERVER-51859,BUG,BUG,rolesInfo command returns a result without `inheritedPrivileges` and `isBuiltin` fields for mongo version 4.9+,BUG,BUG,BUG
+SERVER-45624,NUG,NUG,Pre-split and distribute chunks of sessions collection,NUG,NUG,NUG
+SERVER-41192,NUG,NUG,Add a metric for the size of the SessionCatalog under `logicalSessionRecordCache`,NUG,NUG,NUG
+SERVER-48679,BUG,BUG,"flushRoutingTableCacheUpdates should block on critical section with kWrite, not kRead",BUG,BUG,BUG
+SERVER-48523,NUG,NUG,Unconditionally check the first entry in the oplog when attempting to resume a change stream,NUG,NUG,NUG
+SERVER-50116,BUG,BUG,Forbid oplog writes when replication is enabled,BUG,BUG,BUG
+SERVER-50318,BUG,BUG,Only restart scheduled heartbeats,BUG,BUG,BUG
+SERVER-48518,BUG,BUG,Rollback via refetch (EMRC = false) can make readers to see the rolled back data even after the rollback node catches up to primary.,BUG,BUG,BUG
+SERVER-31715,BUG,BUG,createIndexes (and dropIndexes) may not create index (or leave index around) if migration happens concurrently,BUG,BUG,BUG
+SERVER-51877,NUG,NUG,Check that all API Version 1 commands have an associated IDL file specifying inputs/outputs,NUG,NUG,NUG
+SERVER-49024,BUG,BUG,Disallow $lookup uncorrelated pipeline caching for stages containing $sample/$rand/$sampleRate,BUG,BUG,BUG
+SERVER-12629,NUG,NUG,Allow $meta projections inside subdocuments,NUG,NUG,NUG
+SERVER-52733,NUG,NUG,Dependency rationalization for sbe value,NUG,NUG,NUG
+SERVER-1252,NUG,NUG,Limit return for tailable cursor at first readind,NUG,NUG,NUG
+SERVER-52724,BUG,BUG,Increment TTL passes server status metric after the TTL work has finished,BUG,BUG,BUG
+SERVER-51865,NUG,NUG,IDLify invalidateUserCache and getUserCacheGeneration commands,NUG,NUG,NUG
+SERVER-41410,NUG,NUG,Prototype drain mode concepts,NUG,NUG,NUG
+SERVER-52679,BUG,BUG,Disallow null/undefined command parameter for IDL commands with {namespace: type},BUG,BUG,BUG
+SERVER-15086,NUG,NUG,Allow for efficient range queries over non-array fields in multikey indices,NUG,NUG,NUG
+SERVER-51540,NUG,NUG,Support expression $mod in SBE,NUG,NUG,NUG
+SERVER-48709,BUG,BUG,signing key generator thread on config server not waken up as expected,BUG,BUG,BUG
+SERVER-47528,BUG,BUG,Presence of initialSyncStatus in replSetGetStatus consumes too much FTDC space,BUG,BUG,BUG
+SERVER-51303,BUG,BUG,Lookup stage followed by $match on type uses wrong field in matching condition,BUG,BUG,BUG
+SERVER-52672,BUG,BUG,Update blackduck_hub.py rules for filtering beta versions,BUG,BUG,BUG
+SERVER-13937,NUG,NUG,Allow setting a window and interval for the TTL monitor,NUG,NUG,NUG
+SERVER-34741,NUG,NUG,Move $match in front of $group if condition is on group key,NUG,NUG,NUG
+SERVER-50838,BUG,BUG,Coverity analysis defect 115741: Unchecked return value,BUG,BUG,BUG
+SERVER-51896,NUG,NUG,[cleanup] Inline logic for waitUntilCommittedOrAborted and rename waitUntilCommittedOrAbortedNoThrow to waitUntilCommittedOrAborted to avoid naming confusion,NUG,NUG,NUG
+SERVER-52714,BUG,BUG,Fix the lifetime of ImpersonationSessionGuard in ExecCommandDatabase,BUG,BUG,BUG
+SERVER-6227,NUG,NUG,Definition of serverStatus.network.bytesIn and bytesOut are not consistent with regards to replication traffic,NUG,NUG,NUG
+SERVER-51677,NUG,NUG,MaybeLockFree helpers should check disableLockFreeReads server parameter,NUG,NUG,NUG
+SERVER-52698,BUG,BUG,Protect ViewCatalog with internal mutex on all code paths,BUG,BUG,BUG
+SERVER-50872,NUG,NUG,"Make the OpObserver construct TenantMigrationAccessBlocker on observing insertion for state doc with state ""data sync""",NUG,NUG,NUG
+SERVER-51011,NUG,NUG,"Determine if tenant migration tests should run on ""majority read concern off""",NUG,NUG,NUG
+SERVER-51043,BUG,BUG,Remove the TenantMigrationAccessBlocker when the state doc is removed instead of when expireAt is set,BUG,BUG,BUG
+SERVER-51169,NUG,NUG,Add a helper function to tenant_migration_util.js for running donorStartMigration and retry on NotPrimary errors,NUG,NUG,NUG
+SERVER-51292,NUG,NUG,[required cleanup] Use async version of RemoteCommandTargeter::findHost in TenantMigrationDonorService,NUG,NUG,NUG
+SERVER-51331,NUG,NUG,Make TenantMigrationUtil retry donorStartMigration and donorForgetMigration on network errors,NUG,NUG,NUG
+SERVER-51332,BUG,BUG,tenant_migration_donor_failover_and_shutdown.js should wait for the primary to receive the command before shutting down the node,BUG,BUG,BUG
+SERVER-51894,BUG,BUG,Don't call std::move() on 'collectionOptions' when calling 'userCreateNS' in create_collection.cpp,BUG,BUG,BUG
+SERVER-52646,BUG,NUG,Validate and possibly fix edge cases in regex rewrite rules for userToDNMapping,BUG,BUG,BUG
+SERVER-51022,BUG,BUG,Fix regex in cloner_utils,BUG,BUG,BUG
+SERVER-50837,BUG,BUG,Make sure that donorForgetMigration command can be retried,BUG,BUG,BUG
+SERVER-50456,BUG,BUG,Add incompatible_with_eft tag to tenant migration tests,BUG,BUG,BUG
+SERVER-32905,NUG,NUG,deprecate jstests/core/updatef.js,NUG,NUG,NUG
+SERVER-32727,NUG,NUG,disallow unique indexes on capped collections,NUG,NUG,NUG
+SERVER-29113,NUG,NUG,Have WT grouped collections support random cursors,NUG,NUG,NUG
+SERVER-50671,BUG,BUG,Make TenantMigrationAccessBlockerByPrefix::appendInfoForServerStatus take the mutex,BUG,BUG,BUG
+SERVER-50617,BUG,BUG,Make TenantMigrationAccessBlocker::abort not invariant that the migration is in blocking state,BUG,BUG,BUG
+SERVER-21448,NUG,NUG,Working set estimation WT,NUG,NUG,NUG
+SERVER-21939,NUG,NUG,Ability to force a checkpoint and keep it around for a given amount of time,NUG,NUG,NUG
+SERVER-21886,NUG,NUG,allow users to specify an explicit path for temporary files,NUG,NUG,NUG
+SERVER-21862,NUG,NUG,Use record store directly to read from oplog for replication,NUG,NUG,NUG
+SERVER-21770,NUG,NUG,Support storage engine specific log/profile output fields (per operation),NUG,NUG,NUG
+SERVER-18895,NUG,NUG,Background index building with nice/ionice/priority,NUG,NUG,NUG
+SERVER-16816,NUG,NUG,Should assertInActiveTxn() for WiredTigerCursor::get(),NUG,NUG,NUG
+SERVER-51679,BUG,BUG,Fix race condition in Free Monitoring when free monitoring document is deleted,BUG,BUG,BUG
+SERVER-51864,NUG,NUG,IDLify usersInfo and rolesInfo commands,NUG,NUG,NUG
+SERVER-46946,NUG,NUG,Optimize BtreeKeyGenerator::getKeys for non-multikey indexes,NUG,NUG,NUG
+SERVER-49107,NUG,NUG,Add async command API,NUG,NUG,NUG
+SERVER-16620,NUG,NUG,"escape double quotes \"" when printing strings to log",NUG,NUG,NUG
+SERVER-52634,NUG,BUG,Transactional bulkWrite error returns only 1 error,NUG,NUG,NUG
+SERVER-20172,NUG,BUG,Clean up newline chars in log messages,NUG,NUG,NUG
+SERVER-6036,NUG,NUG,Disable cursor timeout for cursors that belong to a session,NUG,NUG,NUG
+SERVER-52675,NUG,NUG,Lower number of documents for index stress tests and don't run on ephemeralForTest,NUG,NUG,NUG
+SERVER-51263,NUG,NUG,Rename ismaster_metrics files to hello_metrics,NUG,NUG,NUG
+SERVER-51793,BUG,BUG,Speed up compile tasks generated by burn_in_tags by running them on rhel62-large,BUG,BUG,BUG
+SERVER-51777,NUG,NUG,Get rid of reduntant ShardRegistry::init function,NUG,NUG,NUG
+SERVER-52534,NUG,NUG,Auth to the Evergreen API and S3 for both local and Evergreen machines,NUG,NUG,NUG
+SERVER-42737,BUG,BUG,MongoDB stuck on update metadata,BUG,BUG,BUG
+SERVER-50365,BUG,BUG,Stuck with long-running transactions that can't be timed out,BUG,BUG,BUG
+SERVER-45270,BUG,BUG,Increased vulnerability to slow DNS,BUG,BUG,BUG
+SERVER-4428,NUG,NUG,should geoSearch commands should work with certain? query operators,NUG,NUG,NUG
+SERVER-4420,NUG,NUG,"geoHaystack indexes on same keys, different bucket size",NUG,NUG,NUG
+SERVER-52659,NUG,NUG,Avoid running command in a separate thread in index_commands_shard_targeting.js,NUG,NUG,NUG
+SERVER-14947,BUG,BUG,"""btree: key+recloc already in index"" error when updating _id index",BUG,BUG,BUG
+SERVER-48571,BUG,BUG,Write operation might invariant if a target error and a response error is received,BUG,BUG,BUG
+SERVER-51387,NUG,NUG,Assert that the stable timestamp is never set higher than the WT all_durable timestamp,NUG,NUG,NUG
+SERVER-51750,BUG,BUG,config.transactions cloner for resharding must not ignore records for multi-document transaction,BUG,BUG,BUG
+SERVER-52663,BUG,BUG,Fix the lifetime of ScopedMetricsCollector in ExecCommandDatabase,BUG,BUG,BUG
+SERVER-51420,NUG,NUG,Deletes read the document twice before deleting,NUG,NUG,NUG
+SERVER-52669,NUG,NUG,Add performance tests for custom profile/log filter,NUG,NUG,NUG
+SERVER-50882,NUG,BUG,"Noisy log message, ""Received interrupt request for unknown op""",NUG,NUG,NUG
+SERVER-52289,NUG,NUG,Enable feature flag for Custom Filter for Profiler and Logging,NUG,NUG,NUG
+SERVER-51986,NUG,NUG,Create feature flag for Custom Filter for Profiler and Logging,NUG,NUG,NUG
+SERVER-52602,BUG,BUG,"OplogBufferCollection calling StorageInterfaceImpl::insertDocuments() can violate ""multi-timestamp"" constraint.",BUG,BUG,BUG
+SERVER-52628,BUG,BUG,Tenant migration recipient can give a false indication to donor about the data being majority committed on recipient replica set.,BUG,BUG,BUG
+SERVER-52627,BUG,BUG,Fix use after free in SBE sub planner,BUG,BUG,BUG
+SERVER-52625,NUG,NUG,linkbenches write to conventional location,NUG,NUG,NUG
+SERVER-40293,BUG,BUG,change_stream.js removal test should do an unordered check on the change stream,BUG,BUG,BUG
+SERVER-52661,BUG,BUG,lastDurable is set after it is cleared in initial sync,BUG,BUG,BUG
+SERVER-51068,NUG,BUG,HierarchicalAcquisitionLevelViolation messages are cryptic,NUG,NUG,NUG
+SERVER-39044,BUG,BUG,Cannot add session into the cache error code 261,BUG,BUG,BUG
+SERVER-49994,NUG,NUG,Rename javascript test names that use master/slave terminology,NUG,NUG,NUG
+SERVER-41020,NUG,NUG,Tweak or fuzz storage engine tunable parameters in testing,NUG,NUG,NUG
+SERVER-48078,BUG,BUG,Remove OpDebug invariant that relies on monotonic clock source,BUG,BUG,BUG
+SERVER-50123,NUG,NUG,Record number of physical cores on all platforms,NUG,NUG,NUG
+SERVER-51524,NUG,NUG,Alias internalQueryCacheSize to internalQueryCacheMaxEntriesPerCollection,NUG,NUG,NUG
+SERVER-52624,BUG,BUG,Cache the pointer to the oplog collection before running recoverToOplogTimestamp,BUG,BUG,BUG
+SERVER-49724,NUG,NUG,Make ReadThroughCache support StringData keys,NUG,NUG,NUG
+SERVER-51697,BUG,BUG,change_streams_new_shard_new_database.js expects a deterministic assignment of a database to a shard when 'create' command is issued,BUG,BUG,BUG
+SERVER-51388,NUG,NUG,Update live-record buildvariant settings,NUG,NUG,NUG
+SERVER-51870,NUG,NUG,Reduce memory footprint for SBE PlanStages,NUG,NUG,NUG
+SERVER-52537,BUG,BUG,"Mongostat,mongotop and other similar mongo commands are showing password in plain text on linux ps commands",BUG,BUG,BUG
+SERVER-52642,BUG,BUG,Status constructor must handle optional ErrorExtraInfo,BUG,BUG,BUG
+SERVER-50909,NUG,NUG,Only apply changed connection strings inside ShardRegistry::_lookup(),NUG,NUG,NUG
+SERVER-35377,BUG,BUG,Operations on new clients get latest in-memory clusterTime as operationTime,BUG,BUG,BUG
+SERVER-52194,NUG,NUG,Create feature flag for Operational improvements to WT compact,NUG,NUG,NUG
+SERVER-52500,NUG,NUG,Enable feature flag for Reduce stalls in WT when managing a large number of collections,NUG,NUG,NUG
+SERVER-52507,NUG,NUG,Enable feature flag for Test coverage via macro fault injection,NUG,NUG,NUG
+SERVER-52486,NUG,NUG,Enable feature flag for Column store support with WT durable history,NUG,NUG,NUG
+SERVER-52198,NUG,NUG,Create feature flag for Restructure history store code in WT as a cursor interface,NUG,NUG,NUG
+SERVER-52492,NUG,NUG,Enable feature flag for Incremental backup tech debt in WT,NUG,NUG,NUG
+SERVER-52489,NUG,NUG,Enable feature flag for Extend WT stress testing for easier diagnosability,NUG,NUG,NUG
+SERVER-52496,NUG,NUG,Enable feature flag for Migrate WiredTiger performance tests to Evergreen,NUG,NUG,NUG
+SERVER-52180,NUG,NUG,Create feature flag for Better history management for oplog,NUG,NUG,NUG
+SERVER-52193,NUG,NUG,Create feature flag for Migrate WiredTiger performance tests to Evergreen,NUG,NUG,NUG
+SERVER-40317,NUG,BUG,$facet execution has no limit on how much memory it can consume,NUG,NUG,NUG
+SERVER-51291,NUG,NUG,Increment shard version when changing original or temporary resharding collection,NUG,NUG,NUG
+SERVER-52363,NUG,NUG,Enable feature flag for Better JSON logging,NUG,NUG,NUG
+SERVER-52060,NUG,NUG,Create feature flag for Better JSON logging,NUG,NUG,NUG
+SERVER-51373,NUG,NUG,Create IDL definition for OkReply,NUG,NUG,NUG
+SERVER-51248,BUG,BUG,Using _secondaryThrottle and _waitForDelete leads a high number of chunks,BUG,BUG,BUG
+SERVER-51372,NUG,NUG,"Add ""command_name"" field to IDL command syntax",NUG,NUG,NUG
+SERVER-16571,NUG,BUG,Use Actual Memory Constraint vs. Total System Memory When They Differ,NUG,NUG,NUG
+SERVER-51097,BUG,BUG,"unittests ran for more than an hour, stalling the commit queue",BUG,BUG,BUG
+SERVER-43959,BUG,BUG,Warning for enableMajorityReadConcern not showing up in logs as expected,BUG,BUG,BUG
+SERVER-49810,BUG,BUG,Stable result comparison for facet/use_cases.js,BUG,BUG,BUG
+SERVER-51721,BUG,BUG,dataSize do not reduce after chunks migrated,BUG,BUG,BUG
+SERVER-51840,NUG,BUG,Reduce dbtest jobs on 4.2 on Windows debug,NUG,NUG,NUG
+SERVER-51836,BUG,BUG,Update Windows multiversion download link,BUG,BUG,BUG
+SERVER-52615,BUG,BUG,Make sure TenantMigrationSharedData:::_lastVisibleOpTime(dataConsistentStopDonorOpTime) is not null when tenant cloning is successsful.,BUG,BUG,BUG
+SERVER-47553,BUG,BUG,mongos crashes due to client disconnecting when signing keys being refreshed,BUG,BUG,BUG
+SERVER-50413,NUG,NUG,"Change ""not master and slaveOk=false"" error message to ""not master and secondaryOk=false""",NUG,NUG,NUG
+SERVER-51874,NUG,NUG,disallow write operations on time-series buckets collection,NUG,NUG,NUG
+SERVER-52617,BUG,BUG,Cache the pointer to the oplog collection before running recoverToOplogTimestamp,BUG,BUG,BUG
+SERVER-19565,NUG,NUG,BSONElement::getGtLtOp() should include all query operators,NUG,NUG,NUG
+SERVER-51837,BUG,BUG,Coverity analysis defect 116502: Unchecked return value,BUG,BUG,BUG
+SERVER-52597,NUG,BUG,"Add requires_journaling,requires_replication tags to drop-user-transaction test",NUG,NUG,NUG
+SERVER-51365,NUG,BUG,Add requires_persistence tag to split_horizon_startup_warnings.js,NUG,NUG,NUG
+SERVER-51667,NUG,NUG,Collect cpu time used per operation,NUG,NUG,NUG
+SERVER-51718,BUG,BUG,"Disallow sparse, hashed indexes from being considered for answering $exists: false queries.",BUG,BUG,BUG
+SERVER-50576,BUG,BUG,mongokerberos utility is missing in the MSI installer,BUG,BUG,BUG
+SERVER-51717,BUG,BUG,Empty database directory will not be removed if KVEngine::dropIdent() does not drop the ident right away,BUG,BUG,BUG
+SERVER-1475,BUG,BUG,"{field: {$type:""array""}} should return documents where ""field"" is an array",BUG,BUG,BUG
+SERVER-21612,NUG,NUG,Combine post $lookup $match on looked up field,NUG,NUG,NUG
+SERVER-51170,BUG,BUG,Ensure database refreshes are performed after ShardingState initialization,BUG,BUG,BUG
+SERVER-52590,BUG,BUG,Disable aggregate_operation_metrics.js on ephemeralForTest,BUG,BUG,BUG
+SERVER-28195,BUG,BUG,$skip followed by $limit in aggregation resort & lost records when $sort by equal values,BUG,BUG,BUG
+SERVER-51725,BUG,BUG,"Duplicate documents while using ""Sort"" with ""Pagination""",BUG,BUG,BUG
+SERVER-51757,NUG,NUG,Collect /proc/vmstat numa_pages_migrated statistics in FTDC,NUG,NUG,NUG
+SERVER-25397,BUG,BUG,JavaScript linter allows lines over 100 characters,BUG,BUG,BUG
+SERVER-20547,NUG,NUG,Expose the reason an operation fails document validation,NUG,NUG,NUG
+SERVER-51889,NUG,NUG,Introduce new stage to peek / debug a pipeline stage's output,NUG,NUG,NUG
+SERVER-52591,BUG,BUG,Fix printing timestamps in backup_cursor_truncate_after.js,BUG,BUG,BUG
+SERVER-40361,NUG,NUG,Reduce memory footprint of plan cache entries,NUG,NUG,NUG
+SERVER-36818,NUG,BUG,$expr does not use multi-key index,NUG,NUG,NUG
+SERVER-47415,NUG,NUG,move data structures for tracking active index builds in IndexBuildsCoordinator into separate class,NUG,NUG,NUG
+SERVER-50201,BUG,BUG,Coverity analysis defect 116124: Uninitialized scalar field,BUG,BUG,BUG
+SERVER-52598,BUG,BUG,Disable tags.js on ephemeralForTest,BUG,BUG,BUG
+SERVER-24165,BUG,BUG,Validate should report records with invalid BSON,BUG,BUG,BUG
+SERVER-51796,BUG,BUG,"Missing comma in ""Restoring orphaned data file"" (22334) log message parameters",BUG,BUG,BUG
+SERVER-45769,BUG,BUG,FSM workloads that run commands and expect them to fail cause infinite retry loops,BUG,BUG,BUG
+SERVER-51616,NUG,NUG,Store API version fields to expression context,NUG,NUG,NUG
+SERVER-50291,NUG,NUG,Add query knob to enumerate $or children in a different order,NUG,NUG,NUG
+SERVER-41872,BUG,BUG,PlanEnumerator AndAssignment::choices ordering not stable and is relevant to set of plans generated,BUG,BUG,BUG
+SERVER-48771,NUG,NUG,"Enforce constraints on ""multi-timestamp"" transactions",NUG,NUG,NUG
+SERVER-50768,BUG,BUG,getLog: rs missing in 4.4 without documented change,BUG,BUG,BUG
+SERVER-26726,NUG,NUG,Check number of arguments for createIndex() and throw error if more than two arguments,NUG,NUG,NUG
+SERVER-33967,NUG,NUG,Include executionTimeMillis for each shard in the explain output,NUG,NUG,NUG
+SERVER-38909,NUG,NUG,"Permit empty update modifiers, treating as a no-op rather than an error",NUG,NUG,NUG
+SERVER-41694,NUG,NUG,Remove the restriction on collection name length,NUG,NUG,NUG
+SERVER-49102,NUG,NUG,Accept a filter expression as an alternative to slowMS/sampleRate,NUG,NUG,NUG
+SERVER-48492,NUG,NUG,run_reconfig_background.js should ignore ShutdownInProgress errors due to quiesce mode,NUG,NUG,NUG
+SERVER-51819,BUG,BUG,Remove joinAsync from AbstractAsyncComponent,BUG,BUG,BUG
+SERVER-51845,BUG,BUG,StorageInterfaceImpl::createIndexesOnEmptyCollection() should acquire stronger collection lock (X) mode while creating indexes on empty committed collection.,BUG,BUG,BUG
+SERVER-51885,BUG,BUG,Blacklist balancing_sessions_collection.js from sharding_csrs_continuous_config_stepdown,BUG,BUG,BUG
+SERVER-51828,BUG,BUG,Fix assertion around number of elections in priority_takeover_one_node_higher_priority.js,BUG,BUG,BUG
+SERVER-51120,BUG,BUG,Find queries with SORT_MERGE incorrectly sort the results when the collation is specified,BUG,BUG,BUG
+SERVER-40954,NUG,BUG,Error message for UnrecoverableRollbackError in FCV 3.6 should recommend downgrading to 3.6,NUG,NUG,NUG
+SERVER-13201,NUG,NUG,Allow new Aggregation $merge stage to explicitly name a DB to write to,NUG,NUG,NUG
+SERVER-51844,BUG,BUG,Tenant collection cloner implicitly creates _id index while creating collection even if donor doesn't have '_id' index for that collection.,BUG,BUG,BUG
+SERVER-51813,BUG,BUG,Tenant collection cloner tries to do a vectored insert with no size limit (it can go beyond 16 MB) in a single WUOW.,BUG,BUG,BUG
+SERVER-51869,BUG,BUG,StorageInterfaceImpl::createIndexesOnEmptyCollection() creates index without generating oplog on primary.,BUG,BUG,BUG
+SERVER-51853,BUG,BUG,Always initialize the numInserted out-parameter in AbstractIndexAccessMethod::insertKeys,BUG,BUG,BUG
+SERVER-33727,NUG,BUG,Do not wait for write concern if opTime didn't change during write,NUG,NUG,NUG
+SERVER-43904,BUG,BUG,"When stepping down, step up doesn't filter out frozen nodes",BUG,BUG,BUG
+SERVER-51860,BUG,BUG,Aborting after fassert() failure,BUG,BUG,BUG
+SERVER-51651,BUG,BUG,rolesInfo command returns an empty result for mongod version 4.8+,BUG,BUG,BUG
+SERVER-51159,BUG,BUG,Wait for aggregate cursor to appear on the correct shard in change_streams_shards_start_in_sync.js,BUG,BUG,BUG
+SERVER-48030,BUG,BUG,Fix deadlock with GetShardMap and old RSM,BUG,BUG,BUG
+SERVER-50868,BUG,BUG,insertSingleDocumentForInitialSyncOrRecovery is called outside of initial sync and recovery,BUG,BUG,BUG
+SERVER-49287,NUG,NUG,Enable testing of corrupt WT history stores,NUG,NUG,NUG
+SERVER-51818,NUG,NUG,add name to invariant message in Mutex destructor,NUG,NUG,NUG
+SERVER-42116,NUG,NUG,Update with aggregation pipeline shows in oplog as replace operation,NUG,NUG,NUG
+SERVER-49165,BUG,BUG,endSessions command in Client.Disconnect causes an authorization failure for an unauthed connection on a host that requires authentication,BUG,BUG,BUG
+SERVER-51808,BUG,BUG,invariant failure: readConcern level != Available,BUG,BUG,BUG
+SERVER-45992,BUG,BUG,InMemory engine startupwarnings confusing,BUG,BUG,BUG
+SERVER-50605,NUG,NUG,"Add {logMessage: ""msg""} test-only command",NUG,NUG,NUG
+SERVER-51488,BUG,BUG,Complete Replica set shutdown | v3.6.14,BUG,BUG,BUG
+SERVER-47810,BUG,BUG,Resume token returned by mongoS can be earlier than user-specified resume point,BUG,BUG,BUG
+SERVER-51733,BUG,BUG,config server in a docker container fails to start up with authentication,BUG,BUG,BUG
+SERVER-51822,NUG,NUG,Rename featureFlagTimeSeriesCollection to featureFlagTimeseriesCollection,NUG,NUG,NUG
+SERVER-50165,NUG,NUG,parallelize clang-tidy task,NUG,NUG,NUG
+SERVER-51561,BUG,BUG,Defective query plans gets indefinitely cached,BUG,BUG,BUG
+SERVER-51856,NUG,NUG,Add natvis debugger visualizers for BSONObj and BSONElement,NUG,NUG,NUG
+SERVER-51041,NUG,BUG,Throttle starting transactions for secondary reads,NUG,NUG,NUG
+SERVER-50579,BUG,NUG,$mod truncates divisor and remainder to int value,BUG,BUG,BUG
+SERVER-51684,NUG,BUG,Every 4 hours CPU usage is going high varying from 100% to 200% because of mongo SECONDARY / replica node reciding on server,NUG,NUG,NUG
+SERVER-49881,NUG,NUG,remove noop std::move from CollectionCatalog::setCollectionNamespace() rollback handler,NUG,NUG,NUG
+SERVER-50145,NUG,NUG,Have DDL operations and MODE_X writers install a new Collection object,NUG,NUG,NUG
+SERVER-40805,NUG,NUG,Indicate the reason for replanning in the log file,NUG,NUG,NUG
+SERVER-50420,NUG,NUG,Change repl.ismaster to repl.isWritablePrimary in serverStatus,NUG,NUG,NUG
+SERVER-43664,NUG,NUG,Speedup WiredTiger storage engine startup for many tables by optimizing WiredTigerUtil::setTableLogging(),NUG,NUG,NUG
+SERVER-51399,NUG,NUG,"Validation errors for $expr should report result of evaluation, not result after coercion to a boolean",NUG,NUG,NUG
+SERVER-51102,NUG,NUG,Use new $currentOp aggregation pipeline stage in count_plan_summary.js,NUG,NUG,NUG
+SERVER-51450,NUG,BUG,Use new $currentOp aggregation pipeline stage in count10.js,NUG,NUG,NUG
+SERVER-47513,NUG,NUG,killop.js should handle truncated command in currentOp output,NUG,NUG,NUG
+SERVER-41585,NUG,NUG,background_thread_clock_source_test shouldn't assume we can schedule the background thread,NUG,NUG,NUG
+SERVER-50267,BUG,BUG,Set output limit for 'rawMongoProgramOutput()',BUG,BUG,BUG
+SERVER-18721,BUG,BUG,Initial-sync can exhaust available ports with rapid short-lived connections,BUG,BUG,BUG
+SERVER-50901,BUG,BUG,RollbackTest should wait for secondaries before doing data consistency checks,BUG,BUG,BUG
+SERVER-6768,BUG,NUG,MongoDB Profiler creates illegal documents,BUG,BUG,BUG
+SERVER-34120,BUG,BUG,scoped connection not being returned to the pool,BUG,BUG,BUG
+SERVER-36332,BUG,BUG,CursorNotFound error in GetMore on a secondary with sessions,BUG,BUG,BUG
+SERVER-47752,NUG,NUG,kMajorityCommitted ReadSource should not have special treatment in RecoveryUnit,NUG,NUG,NUG
+SERVER-51194,NUG,NUG,Make evergreen tasks for build-tools next,NUG,NUG,NUG
+SERVER-48688,NUG,NUG,Improving diagnostics around user assertions,NUG,NUG,NUG
+SERVER-50031,BUG,BUG,createSystemIndexes should allow WriteConflictExceptions to escape,BUG,BUG,BUG
+SERVER-51817,BUG,BUG,Setting up a Trigger with AWS Eventbridge does not work,BUG,BUG,BUG
+SERVER-51754,NUG,BUG,Running `ninja compiledb` generates much smaller file than `scons compiledb`,NUG,NUG,NUG
+SERVER-51825,BUG,BUG,Blacklist disallow_adding_initialized_node1.js from multiversion suite,BUG,BUG,BUG
+SERVER-51689,BUG,BUG,_configsvrCommitSplitChunk is not waiting for opTime on early return,BUG,BUG,BUG
+SERVER-48435,NUG,NUG,Rename logical_clock.idl to vector_clock.idl,NUG,NUG,NUG
+SERVER-49462,BUG,BUG,Wait for secondaries to be ready in ReplSetTest.checkOplogs,BUG,BUG,BUG
+SERVER-828,NUG,NUG,Support for selecting array elements in return specifier (projection),NUG,NUG,NUG
+SERVER-51728,NUG,NUG,Upload SSL cert files only if certbot command is successful,NUG,NUG,NUG
+SERVER-51512,BUG,BUG,cache evict problem,BUG,BUG,BUG
+SERVER-51814,NUG,NUG,remove dangerous streaming operators in sdam tests,NUG,NUG,NUG
+SERVER-51820,BUG,BUG,Resolve race in atlas_initialsync_workflows.js,BUG,BUG,BUG
+SERVER-50832,BUG,BUG,Coverity analysis defect 115076: Uninitialized scalar field,BUG,BUG,BUG
+SERVER-50452,BUG,BUG,Make destruction of ServiceExecutorFixed deterministic,BUG,BUG,BUG
+SERVER-51716,NUG,BUG,Make computed_projections.js more robust,NUG,NUG,NUG
+SERVER-33966,NUG,NUG,redundant $sort in aggregation prevents best $limit $sort consolidation,NUG,NUG,NUG
+SERVER-50633,BUG,BUG,Address use of client keytab by mongokerberos in --server mode,BUG,BUG,BUG
+SERVER-51050,BUG,BUG,Selected Tests should not generate enterprise tests on non-enterprise builds,BUG,BUG,BUG
+SERVER-50690,NUG,NUG,Add option to specify bind ip to ocsp mock,NUG,NUG,NUG
+SERVER-39697,NUG,NUG,Regex MatchExpression should error at parse time if the regex is not valid,NUG,NUG,NUG
+SERVER-45396,BUG,BUG,"fix the ""me"" field in isMaster responses when using splithorizon",BUG,BUG,BUG
+SERVER-50647,BUG,BUG,Fix OCSP HTTP Client timeout for Windows,BUG,BUG,BUG
+SERVER-44437,NUG,NUG,remove DBDirectClient reference from ShardLocal::createIndexOnConfig,NUG,NUG,NUG
+SERVER-51058,BUG,BUG,log_remote_op_wait.js misuses rawMongoProgramOutput,BUG,BUG,BUG
+SERVER-44832,NUG,NUG,Modify HookTestArchival to reset fixtures,NUG,NUG,NUG
+SERVER-51220,BUG,BUG,Handle auditing attribution in indirect drops,BUG,BUG,BUG
+SERVER-50869,BUG,BUG,Background sync may erroneously set applied-through during step-up,BUG,BUG,BUG
+SERVER-47518,NUG,NUG,mitigate dtor-order fiasco with a utility for defining static duration immortal objects,NUG,NUG,NUG
+SERVER-50103,BUG,BUG,DBClientCursor doesn't set a socket timeout when using a side connection to send the kill cursor request,BUG,BUG,BUG
+SERVER-51472,BUG,BUG,Assertion during early stages of migration can cause it to get stuck,BUG,BUG,BUG
+SERVER-51773,BUG,BUG,list_indexes_with_build_uuids.js - IndexBuildTest.assertIndexes() sees different server state from IndexBuildTest.getIndexBuildOpId(),BUG,BUG,BUG
+SERVER-51794,BUG,BUG,collStats should consider index visibility in relation to its snapshot,BUG,BUG,BUG
+SERVER-51789,BUG,BUG,Execute the getShardAndCollectionVersion function before logging which chunks were created in the split chunk operation,BUG,BUG,BUG
+SERVER-51776,NUG,NUG,Map setup_multiversion_mongodb.py args to evergreen build variants,NUG,NUG,NUG
+SERVER-50900,BUG,BUG,Disable PeriodicShardedIndexConsistencyChecker for cursor_valid_after_shard_stepdown.js,BUG,BUG,BUG
+SERVER-50914,BUG,BUG,cursor_valid_after_shard_stepdown.js can fail because of an unintended metadata refresh,BUG,BUG,BUG
+SERVER-51731,BUG,BUG,ChunkManager::getShardIdsForRange should not hardcode isMaxInclusive to true,BUG,BUG,BUG
+SERVER-51746,BUG,BUG,Fix the application name for tenant migration recipient collection cloner & oplog fetcher DBClientConnection,BUG,BUG,BUG
+SERVER-51745,BUG,BUG,Set setRequestMetadataWriter() for tenant collection cloner.,BUG,BUG,BUG
+SERVER-51744,BUG,BUG,Fix the filter for OplogFetcher::_makeFindQuery(),BUG,BUG,BUG
+SERVER-51743,BUG,BUG,Fix query operator for regex in cloner utils.,BUG,BUG,BUG
+SERVER-51367,BUG,BUG,Ensure proper synchronization around _state after shutdown of FreeMonController,BUG,BUG,BUG
+SERVER-51802,BUG,BUG,Add requires_majority_read_concern tag to decrypt_tool.js on v4.0,BUG,BUG,BUG
+SERVER-51445,BUG,BUG,Must destroy retryableOperation before entering Complete in initial_syncer,BUG,BUG,BUG
+SERVER-51810,BUG,BUG,Make sure the donor primary can step down reliably in tenant_migration_donor_resume_on_stepup_and_restart.js,BUG,BUG,BUG
+SERVER-51726,BUG,BUG,Maintain status code compatibility when main executor is shut down,BUG,BUG,BUG
+SERVER-51494,NUG,NUG,Test exporting and importing collections using the 'directoryPerDB' and 'directoryForIndexes' options,NUG,NUG,NUG
+SERVER-46617,NUG,BUG,Improve NetworkInterfaceTL performance,NUG,NUG,NUG
+SERVER-46724,NUG,NUG,Provide NetworkInterfaceNoop for pool only TPTEs,NUG,NUG,NUG
+SERVER-47554,BUG,BUG,Replica Set member suddenly stopped replication process,BUG,BUG,BUG
+SERVER-51449,NUG,NUG,Mongodb unusually high iops during fsync mongoversion 3.2.10,NUG,NUG,NUG
+SERVER-51702,NUG,NUG,Log commands together with errors upon plan executor failures,NUG,NUG,NUG
+SERVER-47647,BUG,BUG,Duplicate key error message has incorrect namespace after rename,BUG,BUG,BUG
+SERVER-51485,BUG,BUG,dependency on absl internals in getCodePoinLength,BUG,BUG,BUG
+WFLY-14076,BUG,BUG,HotRodSessionManager fails to expire abandoned sessions following failover,BUG,BUG,BUG
+WFLY-12881,BUG,BUG,Cannot customize split behavior and merge policy for Infinispan partition handling,BUG,BUG,BUG
+WFLY-14032,BUG,BUG,app-client not using CallbackHandler from application-client.xml,BUG,BUG,BUG
+WFLY-10188,BUG,BUG,Setting Undertow default server needs validation of provided server to avoid broken Wildfly configuration,BUG,BUG,BUG
+WFLY-13897,BUG,BUG,infinispan-server instances provisioned by testsuite never shutdown,BUG,BUG,BUG
+WFLY-13060,BUG,BUG,EJB client behaviour is different when deployed in a .war compared to a .ear and can result in a OOME,BUG,BUG,BUG
+WFLY-13866,BUG,BUG,Several traces created in Jaeger for just one method call,BUG,BUG,NUG
+WFLY-13589,BUG,BUG,WildFly cannot connect to an infinispan-server cluster requiring authentication,BUG,BUG,BUG
+WFLY-12975,BUG,BUG,JWT is rejected if signature matching public key is not first in JWK set,BUG,BUG,BUG
+WFLY-9464,BUG,BUG,Some XACML tests fail with security manager,BUG,BUG,BUG
+WFLY-13502,BUG,BUG,UT000010: Session is invalid,BUG,BUG,BUG
+WFLY-13144,BUG,BUG,Resource Adapter can't be deleted after restarting server,BUG,BUG,BUG
+WFLY-13627,NUG,BUG,Distributed sessions/SFSBs stored in non-transactional invalidation-cache should schedule expirations locally,BUG,NUG,NUG
+WFLY-13164,BUG,BUG,"When ""corrupted"" public key is supplied to server, user is not informed",BUG,BUG,BUG
+WFLY-12583,BUG,BUG,DB Connection is not getting removed from pool when transaction is rooled back during database fail over in Wildfly-17,BUG,BUG,BUG
+WFLY-12887,BUG,BUG,Clustering: com.ibm.db2.jcc.am.SqlSyntaxErrorException when DB2 is used as invalidation-cache,BUG,BUG,BUG
+WFLY-13328,BUG,BUG,Clustering: java.lang.NullPointerException when using HotRod-based distributed session manager and non transactional cache,BUG,BUG,BUG
+WFLY-13179,BUG,BUG,HealthCheckResponse deserialization issues,BUG,BUG,BUG
+WFLY-13170,BUG,BUG,AutoClosable behaviour from MP Config spec is not implemented,BUG,NUG,BUG
+WFLY-12960,BUG,BUG,"Convert JaxrsSubsystemTestCase, and JaxrsTransformersTestCase to use expressions",BUG,BUG,NUG
+WFLY-12842,NUG,NUG,MicroProfile Config properties are not taken into account by Jaeger client,NUG,NUG,NUG
+WFLY-9809,NUG,NUG,Update jastow to 2.1.0.Final,NUG,NUG,NUG
+WFLY-14072,BUG,BUG,AbstractInvocationHandler.handleInvocationException wraps SecurityExceptions,BUG,BUG,BUG
+WFLY-14034,BUG,BUG,New health/ready check fails with RBAC enabled,BUG,BUG,BUG
+WFLY-14044,BUG,BUG,Indexing org.postgresq.jdbc.PgConnection$1 fails,BUG,BUG,BUG
+WFLY-11986,BUG,BUG,HAL Console places <datasource-class> in <datasource> element in standalone.xml. It leads to Test Connection fail,BUG,BUG,BUG
+WFLY-14075,BUG,BUG,WS tests fails on RHEL8&OpenJDK11,BUG,BUG,BUG
+WFLY-13519,BUG,BUG,Infinispan module attribute needs to support multiple values,BUG,BUG,BUG
+WFLY-14074,NUG,NUG,Normalize principial propagation/injection across elytron and legacy,NUG,NUG,NUG
+WFLY-13150,NUG,NUG,Add a Galleon layer for the distributable web subsystem configured with a local web cache,NUG,NUG,NUG
+WFLY-6892,NUG,NUG,Access logging for EJBs,NUG,NUG,NUG
+WFLY-8136,NUG,NUG,Allow JAX-RS annotations in CDI @Stereotype,NUG,NUG,NUG
+WFLY-10554,BUG,BUG,"OpenSAML 3.3.0 complains for missing class from ""metrics-core""",BUG,BUG,BUG
+WFLY-13220,BUG,BUG,A DeploymentException must be thrown if configured to use a PrivateKey,BUG,BUG,BUG
+WFLY-13412,NUG,BUG,Add Json Merge Patch support,NUG,NUG,NUG
+WFLY-9288,BUG,BUG,EJB session auto-creation is not working,BUG,BUG,BUG
+WFLY-11426,BUG,BUG,EJB call via twice remote-outbound-connection was authentication failed,BUG,BUG,BUG
+WFLY-4576,BUG,BUG,JCE jar file inside a deployment fails the signature check,BUG,BUG,BUG
+WFLY-9881,BUG,BUG,UnsatisfiedLinkError - Open CV,BUG,BUG,BUG
+WFLY-13691,BUG,BUG,"Ajax call causes exception: Target Unreachable, 'null' returned null",BUG,BUG,BUG
+WFLY-14072,BUG,BUG,AbstractInvocationHandler.handleInvocationException wraps SecurityExceptions,BUG,BUG,BUG
+WFLY-11986,BUG,BUG,HAL Console places <datasource-class> in <datasource> element in standalone.xml. It leads to Test Connection fail,BUG,BUG,BUG
+WFLY-13519,BUG,BUG,Infinispan module attribute needs to support multiple values,BUG,BUG,BUG
+WFLY-13150,NUG,BUG,Add a Galleon layer for the distributable web subsystem configured with a local web cache,NUG,NUG,NUG
+WFLY-13958,NUG,BUG,Upgrade RESTEasy to 3.13.3.Final,NUG,NUG,NUG
+WFLY-13828,NUG,BUG,remote+tls is not supported by EJBClient and remote-outbound-connection,NUG,NUG,BUG
+WFLY-13886,BUG,BUG,Remoting outbound channels are not closed,BUG,BUG,BUG
+WFLY-14064,BUG,BUG,Intermittent failures in PassivationFailedTestCase.testPassivationFailure,BUG,BUG,BUG
+WFLY-14025,BUG,BUG,Unable to remove the default datasource binding from the ee subsystem,BUG,BUG,BUG
+WFLY-14045,BUG,BUG,Elytron/Jaspic: UserPrincipal is not propagated from web-container to ejb-container,BUG,BUG,BUG
+WFLY-11933,BUG,BUG,Error when accessing metrics with RBAC enabled,BUG,BUG,BUG
+WFLY-14037,BUG,BUG,"When restarting JBoss , Java EE Application startup failed but deployed successfully",BUG,BUG,BUG
+WFLY-14042,BUG,BUG,Enterprise war deployment fails with latest wildfly 20+,BUG,BUG,BUG
+WFLY-13736,BUG,BUG,WFLYWELD0041: WeldContainer is not started when redeploying,BUG,BUG,BUG
+WFLY-14038,BUG,BUG,Intermittent failure MeterTest.testRates org.eclipse.microprofile.metrics.tck.metrics,BUG,BUG,BUG
+WFLY-13995,BUG,BUG,Authentication on Management Console is not displayed in Chrome,BUG,BUG,BUG
+WFLY-13056,BUG,BUG,Unexpected Error instead of SOAPFaultException when using IBM JDK and SecurityManager,BUG,BUG,BUG
+WFLY-14028,BUG,BUG,org.jboss.openjdk-orb:openjdk-orb missing from org.wildfly.bom:wildfly-jakartaee8,BUG,BUG,BUG
+WFLY-10655,BUG,BUG,"SEVERE error on deploy of ear: ""Unable to obtain CDI 1.1 utilities for Mojarra""",BUG,BUG,BUG
+WFLY-11549,BUG,BUG,Wildfly-14 : ClassCastException while marshalling/unmarshalling,BUG,BUG,BUG
+WFLY-14009,BUG,BUG,Download log file from Widfly Console forbidden with Keycloak setup,BUG,BUG,BUG
+WFLY-14017,NUG,BUG,Native support for OpenID Connect,NUG,NUG,NUG
+WFLY-13896,NUG,NUG,Upgrade Narayana to 5.10.7.Final,NUG,NUG,NUG
+WFLY-14010,NUG,NUG,Upgrade Mojarra to 2.3.14.SP02,NUG,NUG,NUG
+WFLY-14007,NUG,NUG,Certificate Revocation Lists,NUG,NUG,NUG
+WFLY-13916,NUG,NUG,Elytron server-ssl-context allowed protocols,NUG,NUG,NUG
+WFLY-13876,BUG,BUG,Test for key-store certificate realm login,BUG,BUG,BUG
+WFLY-13999,NUG,NUG,Upgrade RESTEasy to 3.13.3.Final,NUG,NUG,NUG
+WFLY-13933,BUG,BUG,access-log entries might become lost during the shutdown even if graceful timeout is specified,BUG,BUG,BUG
+WFLY-10929,BUG,BUG,Unescaped characters in URL from client does not work correctly when allowed for HTTP and HTTPS listeners,BUG,BUG,BUG
+WFLY-13714,BUG,BUG,JPA PersistenceUnitInfo.persistenceUnitRootUrl vfs URL should be resolved,BUG,BUG,BUG
+WFLY-13949,BUG,BUG,JNDI lookup for JMS Queue failing,BUG,BUG,BUG
+WFLY-13990,BUG,BUG,NPE in StatefulSessionSynchronizationInterceptor,BUG,BUG,BUG
+WFLY-13055,BUG,BUG,Permission check failed when using SecurityManager with IBM JDK,BUG,BUG,BUG
+WFLY-12538,BUG,BUG,Principal injected in a secured bean is different when Elytron is activated,BUG,BUG,BUG
+WFLY-13917,BUG,BUG,RESTEasy requires Bouncy Castle for multipart/signed resources,BUG,BUG,BUG
+WFLY-13057,BUG,BUG,Unexpected status of WSBACoordinator when using IBM JDK and SecurityManager,BUG,BUG,BUG
+WFLY-13698,BUG,BUG,NullPointerException due to JSFDependencyProcessor adding null ModuleIdentifer,BUG,BUG,BUG
+WFLY-13925,BUG,BUG,Deployment with the `resteasy-client-microprofile` dependency causes JAX-RS endpoints to not be exposed,BUG,BUG,BUG
+WFLY-13957,BUG,BUG,ManagedExecutorServiceMetricsTestCase.testActiveRequests fails intermittently,BUG,BUG,BUG
+WFLY-13940,BUG,BUG,SingletonDeploymentJBossAllTestCase fails frequently in CI,BUG,BUG,BUG
+WFLY-13929,BUG,BUG,Intermittent failures in DeploymentOverlayCLITestCase,BUG,BUG,BUG
+WFLY-13306,BUG,BUG,Deployment of empty war with 2.3 faces-config.xml fails,BUG,BUG,BUG
+WFLY-13931,NUG,NUG,Allow defining HealthChecks without CDI,NUG,NUG,NUG
+WFLY-11630,NUG,BUG,JDBC datasource should be granted the connect SocketPermission,BUG,BUG,NUG
+WFLY-12465,BUG,BUG,Security manager failures persisting timers,BUG,BUG,BUG
+WFLY-6227,BUG,BUG,InterruptedException when cleaning cache store,BUG,BUG,BUG
+WFLY-6636,BUG,BUG,WELD-001408: Unsatisfied dependencies on hot deploy of app using module-alias as dependency,BUG,BUG,BUG
+WFLY-9516,BUG,BUG,JPA deployer adding cross sub deployment dependencies when multiple persistence units deployed,BUG,BUG,BUG
+WFLY-10466,BUG,BUG,"Ignoring a failure, even when it occurs in a narrow context where the failure is not relatively unimportant",BUG,BUG,BUG
+WFLY-13918,NUG,NUG,Bump MicroProfile SmallRye Config to activate Variable Expansion,NUG,NUG,NUG
+WFLY-11062,BUG,BUG,No Multi-Release infinispan-commons-9.3.3.Final-redhat-00001.jar,NUG,BUG,BUG
+WFLY-11403,BUG,BUG,DistributableTestCase fails intermittently,BUG,BUG,BUG
+WFLY-11514,BUG,BUG,NPE in ServletContextImpl#getContextPath on undeploy,BUG,BUG,BUG
+WFLY-11857,BUG,BUG,Multi JSF Installer error in deployment,BUG,BUG,BUG
+WFLY-13612,BUG,BUG,Bean Validation Problem In EJB inheritance,BUG,BUG,BUG
+WFLY-13793,NUG,NUG,Allow for a remote jms queue / topic not to use legacy amq1 prefix,NUG,NUG,NUG
+WFLY-13801,NUG,NUG,JWT Revoke Feature,NUG,NUG,NUG
+WFLY-13666,BUG,BUG,Loss of Servlet Context Data when request canceled,BUG,BUG,BUG
+WFLY-13771,BUG,BUG,Create a Galleon layers for the messaging subsystem,BUG,BUG,BUG
+WFLY-13684,BUG,BUG,Intermittent failures in MixedDomainDeployment700TestCase,BUG,BUG,BUG
+WFLY-11705,BUG,BUG,Broken image links in domain mode docs,BUG,BUG,BUG
+WFLY-11214,BUG,BUG,Periodic recovery does not recover XAResource after jvm crash when agroal subsystem is used,BUG,BUG,BUG
+WFLY-7871,NUG,NUG,Decouple backup/site name from the name of the corresponding resource,NUG,NUG,NUG
+WFLY-11365,BUG,BUG,Test JSONBTestCase fails with security manager,BUG,BUG,BUG
+WFLY-11564,BUG,BUG,ServletResourceOverlaysTestCase fails with security manager on Windows + Java 11,BUG,BUG,BUG
+WFLY-1045,NUG,NUG,Provide additional EJB container management operations,NUG,NUG,NUG
+WFLY-10574,NUG,NUG,Support for defining authentication for HotRodStore/RemoteStore,NUG,NUG,NUG
+WFLY-703,NUG,NUG,HttpHandlers configuration for EJB3 Webservice Endpoints,NUG,NUG,NUG
+WFLY-1131,NUG,NUG,Remove fallback mechanism from taking any AS7 property content,NUG,NUG,NUG
+WFLY-1430,NUG,NUG,Create clustering-monitor subsystem,NUG,NUG,NUG
+WFLY-1633,BUG,BUG,getCodeSigners() returns null in signed WAR deployments,BUG,BUG,BUG
+WFLY-4056,NUG,BUG,Graceful shutdown for JMS,NUG,NUG,NUG
+WFLY-9064,BUG,BUG,HibernateNativeAPINaturalIdTestCase fails with security manager,BUG,BUG,BUG
+WFLY-8868,NUG,NUG,per application Expressions,NUG,NUG,NUG
+WFLY-8769,NUG,NUG,Integrate GOOGLE_PING2 discovery protocol,NUG,NUG,NUG
+WFLY-9589,NUG,NUG,Upgrade JBossXACML to 2.0.10,NUG,NUG,NUG
+WFLY-11174,BUG,BUG,TransactionIntegration should be exposed as a capability,BUG,BUG,BUG
+WFLY-12019,BUG,BUG,Cannot remove a undertow server resource at one time,NUG,BUG,BUG
+WFLY-12459,NUG,BUG,Track processing time of in flight requests in Undertow,NUG,NUG,NUG
+WFLY-12473,NUG,BUG,Allow UUID for instance-id,NUG,NUG,NUG
+WFLY-12701,BUG,BUG,JSTL EL Evulation not working properly throwing NoClassDefFoundError,BUG,BUG,BUG
+WFLY-13428,NUG,NUG,Upgrade to WildFly Core 12.0.0.Beta3,NUG,NUG,NUG
+WFLY-13077,NUG,NUG,Support protostream-based marshalling of user objects,NUG,NUG,NUG
+WFLY-13520,NUG,NUG,"Add support for Infinispan query, counters, locks, and CDI",NUG,NUG,NUG
+WFLY-13625,NUG,NUG,Security Realms should support specifying the charset and encoding for credentials.,NUG,NUG,NUG
+WFLY-13853,NUG,NUG,Upgrade download-maven-plugin to 1.6.0,NUG,NUG,NUG
+WFLY-13779,BUG,BUG,MicroProfile Metrics tests started to fail since changes in ConfigSource,BUG,BUG,BUG
+WFLY-12836,BUG,BUG,Large allocations in EJBContextImpl#isCallerInRole,BUG,BUG,BUG
+WFLY-13817,NUG,NUG,CachedConnectionManager: don't push another meta object on stack if transaction has not changed,NUG,NUG,NUG
+WFLY-13715,NUG,NUG,Certify Oracle 19c (was 12c) RAC Cluster Support with Oracle UCP,NUG,NUG,NUG
+WFLY-13700,NUG,NUG,Add ability to configure stale transaction timeout for local transaction,NUG,NUG,NUG
+WFLY-13762,NUG,NUG,SSLContext to support delegation to alternate instances based on peer information.,NUG,NUG,NUG
+WFLY-13767,NUG,NUG,Upgrade PicketLink bindings from 2.5.5.SP12-redhat-00012 to 2.5.5.SP12-redhat-00013,NUG,NUG,NUG
+WFLY-13735,BUG,BUG,Use of thread pools with EJB remote element needs attention,BUG,BUG,BUG
+WFLY-13682,BUG,BUG,JBossWSStringReplaceTestCase.incorrectValueOfModifyWsdlAddressOpeningElement failed intermittently on Windows,BUG,BUG,BUG
+WFLY-10099,BUG,BUG,ClusteredJPA2LCTestCase fails intermittently,BUG,BUG,BUG
+WFLY-13575,NUG,NUG,Remove all hard coded references to Artemis default values,NUG,NUG,NUG
+WFLY-13693,BUG,BUG,Custom Infinispan cache regions fail when using legacy (non-JPA) Hibernate configuration,BUG,BUG,BUG
+WFLY-13530,NUG,NUG,"REST Integration with grpc (high performance, open-source universal RPC framework)",NUG,NUG,NUG
+WFLY-13686,BUG,BUG,Deadlock on Wildfly startup,BUG,BUG,BUG
+WFLY-11034,BUG,BUG,"Integration with grpc (high performance, open-source universal RPC framework)",NUG,BUG,BUG
+WFLY-13681,BUG,BUG,Infinispan cache configured with remote-store with rawValues fails,BUG,BUG,BUG
+WFLY-13664,BUG,BUG,Clustering TS: Infinispan Server test driver intermittently fails to start the server,BUG,BUG,BUG
+WFLY-11115,BUG,BUG,bumpTimeout method usage in InMemorySessionManager,BUG,BUG,BUG
+WFLY-13662,NUG,BUG,Weld Conversation Context Logs when not using Conversation Context,BUG,NUG,NUG
+WFLY-13668,NUG,NUG,Upgrade jboss-parent to 36,NUG,NUG,NUG
+WFLY-13035,BUG,BUG,Missing schema warnings in JBDS when importing quickstarts,BUG,BUG,BUG
+WFLY-13661,BUG,BUG,Assignment of default bean instance pools for MDBs and SLSBs is unclear,BUG,BUG,BUG
+WFLY-12977,BUG,BUG,Warnings propagated from io.smallrye.jwt.auth.* don't have assigned ID,BUG,BUG,BUG
+WFLY-12951,BUG,BUG,JWT signed by 1024 bit long key is rejected,BUG,BUG,BUG

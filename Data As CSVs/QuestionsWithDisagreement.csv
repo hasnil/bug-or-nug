@@ -1,0 +1,25 @@
+﻿ID,CLASSIFIED,TYPE,SUMMARY,Alan Ratings,Aaron Ratings,Lotfi Ratings
+SPARK-33411,NUG,NUG,"Cardinality estimation of union, range and sort logical operators",NUG,BUG,NUG
+SPARK-33150,BUG,BUG,Groupby key may not be unique when using window,NUG,BUG,BUG
+SPARK-28360,BUG,NUG,The serviceAccountName configuration item does not take effect in client mode.,BUG,NUG,BUG
+SPARK-32778,BUG,NUG,Accidental Data Deletion on calling saveAsTable,BUG,NUG,BUG
+SPARK-14922,NUG,BUG,Alter Table Drop Partition Using Predicate-based Partition Spec,NUG,BUG,NUG
+SPARK-32500,NUG,BUG,Query and Batch Id not set for Structured Streaming Jobs in case of ForeachBatch in PySpark,NUG,BUG,NUG
+SPARK-32569,NUG,BUG,Gaussian can not handle data close to MaxDouble,NUG,BUG,NUG
+SPARK-32617,NUG,BUG,Upgrade kubernetes client version to support latest minikube version.,NUG,BUG,NUG
+SPARK-20684,NUG,BUG,expose createOrReplaceGlobalTempView/createGlobalTempView and dropGlobalTempView in SparkR,NUG,BUG,NUG
+SPARK-32395,NUG,BUG,Commit output files after task attempt succeed in dynamic partition datawriter,NUG,BUG,NUG
+SPARK-32059,BUG,NUG,Nested Schema Pruning not Working in Window Functions,BUG,NUG,BUG
+SERVER-45298,NUG,BUG,WiredTiger has failed to open its metadata,NUG,NUG,BUG
+SERVER-51598,NUG,BUG,Add new test suites that test transaction expiration logic,BUG,NUG,NUG
+SERVER-25822,BUG,NUG,Prohibit linking unittest library into core mongodb binaries,BUG,BUG,NUG
+SERVER-50027,BUG,NUG,Freeze migrations on original sharded collection while the resharding operation is in progress,BUG,NUG,BUG
+SERVER-52658,BUG,NUG,Shut down the Grid's executor before shutting down the PrimaryOnlyServiceRegistry in resharding unit tests,NUG,BUG,BUG
+WFLY-13866,BUG,BUG,Several traces created in Jaeger for just one method call,BUG,BUG,NUG
+WFLY-13627,NUG,BUG,Distributed sessions/SFSBs stored in non-transactional invalidation-cache should schedule expirations locally,BUG,NUG,NUG
+WFLY-13170,BUG,BUG,AutoClosable behaviour from MP Config spec is not implemented,BUG,NUG,BUG
+WFLY-12960,BUG,BUG,"Convert JaxrsSubsystemTestCase, and JaxrsTransformersTestCase to use expressions",BUG,BUG,NUG
+WFLY-11062,BUG,BUG,No Multi-Release infinispan-commons-9.3.3.Final-redhat-00001.jar,NUG,BUG,BUG
+WFLY-12019,BUG,BUG,Cannot remove a undertow server resource at one time,NUG,BUG,BUG
+WFLY-11034,BUG,BUG,"Integration with grpc (high performance, open-source universal RPC framework)",NUG,BUG,BUG
+WFLY-13662,NUG,BUG,Weld Conversation Context Logs when not using Conversation Context,BUG,NUG,NUG
